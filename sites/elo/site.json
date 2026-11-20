@@ -1,0 +1,107 @@
+{
+  "template": "fashion",
+  "title": "ELO — Softly Worn",
+  "description": "Elevated essentials for effortless living. Fluid modal dresses and robes from Lagos, shipped worldwide.",
+  "instagram": "elo_brandshop",
+  "ogImage": "elo-02.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap",
+    "vars": {
+      "--bg": "#F7F4EF", "--stone": "#ECE7DF", "--ink": "#2B2A26", "--muted": "#7A766D", "--accent": "#8C8A3A",
+      "--story-bg": "#EDE5F7", "--hero-bg": "#EEF0C9",
+      "--serif": "'Cormorant Garamond',Georgia,serif", "--sans": "'Jost',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "ELO", "sub": "softly worn" },
+  "announce": "Complimentary wrapping on every order · Shipping from Lagos to the world",
+  "nav": [
+    { "label": "Shop", "href": "#shop" },
+    { "label": "Colours", "href": "#colours" },
+    { "label": "Fabric", "href": "#details" },
+    { "label": "Diaries", "href": "#social" }
+  ],
+  "hero": {
+    "eyebrow": "The Softies Collection",
+    "headlineHtml": "Softly worn.<br><em>Everyday</em> ease.",
+    "text": "Elevated essentials for effortless living. Fluid modal dresses and robes, cut to hold you gently from morning coffee to midnight conversation.",
+    "primary": { "label": "Shop the collection →", "href": "#shop" },
+    "secondary": { "label": "Feel the fabric", "href": "#details" },
+    "main": { "src": "elo-02.jpg", "alt": "Model in the lime ELO slip dress and matching robe" },
+    "side": { "src": "elo-21.jpg", "alt": "ELO robes in sky, lime and lilac on a rail" },
+    "tag": { "eyebrow": "New in", "title": "The Lime Set", "text": "Slip dress + robe" }
+  },
+  "marquee": ["Softly worn", "Everyday ease", "Made for slow mornings", "Lagos to the world"],
+  "colours": {
+    "eyebrow": "Shop by mood",
+    "titleHtml": "Three colours,<br>endless ease.",
+    "items": [
+      { "key": "lilac", "label": "Lilac", "sub": "Soft & dreamy", "img": "elo-00.jpg" },
+      { "key": "lime", "label": "Lime", "sub": "Bright & bold", "img": "elo-03.jpg", "pos": "70% center" },
+      { "key": "sky", "label": "Sky", "sub": "Calm & airy", "img": "elo-11.jpg" }
+    ]
+  },
+  "shop": {
+    "eyebrow": "The essentials",
+    "title": "Shop the Softies",
+    "link": { "label": "Size guide", "href": "#" },
+    "colors": { "lilac": "#BFA6E3", "lime": "#B3BC25", "sky": "#A9C9EE" },
+    "products": [
+      { "name": "The Softie Slip Dress", "ngn": 58000, "usd": 42, "badge": "Bestseller", "color": "lilac", "img": { "lilac": "elo-16.jpg", "sky": "elo-11.jpg", "lime": "elo-01.jpg" }, "pos": { "lime": "50% center" } },
+      { "name": "The Softie Set", "sub": "Slip dress + robe", "ngn": 95000, "usd": 68, "badge": "New", "color": "lime", "img": { "lilac": "elo-17.jpg", "sky": "elo-12.jpg", "lime": "elo-02.jpg" } },
+      { "name": "The Wrap Robe", "sub": "Belted, floor length", "ngn": 45000, "usd": 32, "color": "lilac", "img": { "lilac": "elo-15.jpg" } },
+      { "name": "The Softie Trio", "sub": "All three robes", "ngn": 120000, "usd": 86, "badge": "Gift idea", "color": "all", "img": { "all": "elo-21.jpg" } }
+    ],
+    "note": "Prices shown are placeholders for this concept."
+  },
+  "details": {
+    "eyebrow": "Designed to be lived in",
+    "titleHtml": "Every detail,<br>softly considered.",
+    "images": [
+      { "src": "elo-13.jpg", "alt": "Sky set diagram: fitted robe, lace trim, fitted body, godet style, modal fabric", "fit": "contain" },
+      { "src": "elo-18.jpg", "alt": "Lilac set diagram: robe, lace details, body fitted dress, modal fabric", "fit": "contain" }
+    ],
+    "feats": [
+      { "title": "Modal fabric", "text": "Silky to the touch and breathable enough for Lagos afternoons.", "swatch": "#A9C9EE" },
+      { "title": "Fitted body", "text": "A sculpted silhouette that moves with you, never against you.", "swatch": "#BFA6E3" },
+      { "title": "Delicate lace trim", "text": "A quiet finishing touch along the neckline.", "swatch": "#B3BC25" },
+      { "title": "Godet hem", "text": "Inset panels that flare into a fluid, floor-grazing sweep.", "swatch": "#8C8A3A" }
+    ]
+  },
+  "story": {
+    "img": "elo-19.jpg", "alt": "ELO orders wrapped in tissue with lilac ribbon",
+    "eyebrow": "The ELO experience",
+    "titleHtml": "Wrapped like<br>a little gift to you.",
+    "text": "Every order is hand-folded, wrapped in ELO tissue and tied with ribbon in Lagos, then tracked to your door wherever you are in the world.",
+    "cta": { "label": "Start your order →", "href": "#shop" }
+  },
+  "social": {
+    "title": "Founder's diaries",
+    "items": [
+      { "src": "elo-05.jpg", "alt": "Staying home in the ELO set", "video": true },
+      { "src": "elo-06.jpg", "alt": "Friends lounging in ELO sets", "video": true },
+      { "src": "elo-07.jpg", "alt": "Founder's diaries", "video": true },
+      { "src": "elo-24.jpg", "alt": "Introducing ELO", "video": true },
+      { "src": "elo-08.jpg", "alt": "Wrapped ELO orders" }
+    ]
+  },
+  "info": [
+    { "title": "Worldwide shipping", "text": "Dispatched from Lagos, tracked to your door." },
+    { "title": "Find your fit", "text": "A simple size chart for every piece." },
+    { "title": "Pay your way", "text": "Cards, bank transfer, naira or dollars." },
+    { "title": "Questions?", "text": "Chat with us on WhatsApp or Instagram." }
+  ],
+  "join": {
+    "eyebrow": "Join the Softies",
+    "titleHtml": "First to know,<br>first to wear.",
+    "text": "New colours, restocks and the occasional founder's note."
+  },
+  "footer": {
+    "blurb": "Softly worn. Everyday ease. Elevated essentials for effortless living.",
+    "columns": [
+      { "title": "Shop", "items": ["Dresses", "Robes", "Sets", "Gift wrap"] },
+      { "title": "Help", "items": ["Orders", "Size chart", "Shipping", "FAQ"] },
+      { "title": "Follow", "items": [{ "label": "Instagram", "href": "https://www.instagram.com/elo_brandshop/" }, "TikTok", "WhatsApp"] }
+    ],
+    "legal": "ELO · Lagos"
+  }
+}

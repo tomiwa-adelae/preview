@@ -1,0 +1,107 @@
+{
+  "template": "store",
+  "title": "Koza Hair Plug — Shop Premium Wigs",
+  "description": "Premium quality wigs and customised machine-made units from Lagos, shipped worldwide.",
+  "instagram": "koza_hair_plug",
+  "ogImage": "kz-22-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=DM+Sans:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--dark": "#2E2D31", "--dark-2": "#3A393E", "--accent": "#6A3FA0", "--accent-soft": "#C3A8EA",
+      "--bg": "#F6EEF4", "--sale": "#B4235A",
+      "--display": "'Bodoni Moda',Georgia,serif", "--sans": "'DM Sans',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "Koza", "sub": "HAIR PLUG" },
+  "ticker": ["Sale on now: up to ₦100,000 off selected units", "Worldwide shipping", "Customised machine-made units", "Official store — no Ghana branch"],
+  "nav": [
+    { "label": "Shop wigs", "href": "#shop" },
+    { "label": "Custom units", "href": "#custom" },
+    { "label": "Kozababes", "href": "#social" },
+    { "label": "Shipping", "href": "#info" }
+  ],
+  "hero": {
+    "eyebrow": "Lagos hair vendor · Ships worldwide",
+    "headlineHtml": "Premium wigs,<br>made to <em>turn heads.</em>",
+    "text": "Premium quality wigs and customised machine-made units. Shop the collection, check out in minutes, and have it shipped anywhere in the world.",
+    "primary": { "label": "Shop the sale →", "href": "#shop" },
+    "secondary": { "label": "Order a custom unit", "href": "#custom" },
+    "stats": [
+      { "value": "61k+", "label": "Kozababes on Instagram" },
+      { "value": "Worldwide", "label": "Tracked shipping" },
+      { "value": "Custom", "label": "Machine-made units" }
+    ],
+    "images": [
+      { "src": "kz-22-reel.jpg", "alt": "Black body wave unit", "pos": "center 25%" },
+      { "src": "kz-13-reel.jpg", "alt": "Honey ombré body wave unit", "pos": "center 35%" }
+    ],
+    "pricePop": { "was": "₦1,300,000", "now": "₦1,200,000", "label": "Classic Black Body Wave" }
+  },
+  "shop": {
+    "eyebrow": "The collection",
+    "title": "Shop wigs",
+    "currency": "₦",
+    "filters": [
+      { "key": "straight", "label": "Straight" },
+      { "key": "wavy", "label": "Body wave" },
+      { "key": "curly", "label": "Curly" },
+      { "key": "colour", "label": "Coloured" }
+    ],
+    "products": [
+      { "name": "Classic Black Body Wave", "meta": "Natural black · body wave", "img": "kz-22-reel.jpg", "now": 1200000, "was": 1300000, "tags": ["wavy"] },
+      { "name": "Honey Ombré Body Wave", "meta": "Honey blonde ombré · body wave", "img": "kz-13-reel.jpg", "now": 1100000, "was": 1200000, "tags": ["wavy", "colour"] },
+      { "name": "Extra-Long Bone Straight", "meta": "Jet black · bone straight", "img": "kz-15-reel.jpg", "now": 1900000, "was": 2000000, "tags": ["straight"] },
+      { "name": "Deep Curly Frontal", "meta": "Natural black · deep curl", "img": "kz-09-reel.jpg", "now": 450000, "was": 500000, "tags": ["curly"] },
+      { "name": "Burgundy Loose Wave", "meta": "Burgundy · loose wave", "img": "kz-23-reel.jpg", "now": 1600000, "was": 1700000, "tags": ["wavy", "colour"] },
+      { "name": "Silky Straight with Bangs", "meta": "Black with copper streaks · bangs", "img": "kz-11-reel.jpg", "now": 790000, "was": 850000, "tags": ["straight", "colour"] },
+      { "name": "Ash Blonde Straight", "meta": "Ash blonde highlights · straight", "img": "kz-10-reel.jpg", "now": 1400000, "was": 1500000, "tags": ["straight", "colour"] },
+      { "name": "Side-Part Body Wave", "meta": "Natural black · voluminous wave", "img": "kz-08-reel.jpg", "now": 900000, "was": 1000000, "tags": ["wavy"] },
+      { "name": "Copper Layered Bangs", "meta": "Copper · layered wave", "img": "kz-14-reel.jpg", "now": 780000, "was": 850000, "tags": ["wavy", "colour"] },
+      { "name": "Chocolate Highlight Wave", "meta": "Chocolate highlights · body wave", "img": "kz-16-reel.jpg", "now": 1050000, "was": 1150000, "tags": ["wavy", "colour"] },
+      { "name": "Bouncy Layered Curls", "meta": "Natural black · layered curl", "img": "kz-18-reel.jpg", "now": 800000, "was": 880000, "tags": ["curly"] },
+      { "name": "Two-Tone Silk Straight", "meta": "Brown two-tone · straight", "img": "kz-17-reel.jpg", "now": 1400000, "was": 1500000, "tags": ["straight", "colour"] }
+    ],
+    "note": "Prices are taken from Koza's recent sale posts. Product names are placeholders for this concept."
+  },
+  "trust": [
+    { "title": "Official store", "text": "Order direct from Koza. We have no Ghana store, so please beware of copycats." },
+    { "title": "Worldwide shipping", "text": "Dispatched from Lagos with tracking to your door." },
+    { "title": "Pay securely", "text": "Card, bank transfer or USSD through Paystack. Naira or dollars." },
+    { "title": "Real support", "text": "Questions about lace, density or colour? Chat with us on WhatsApp." }
+  ],
+  "custom": {
+    "eyebrow": "Customised machine-made",
+    "title": "Can't find it? We'll make it.",
+    "text": "Pick your texture, length and colour, and we'll build the unit for you. Request it here instead of going back and forth in DMs.",
+    "images": [
+      { "src": "kz-04-reel.jpg", "alt": "Auburn wavy custom unit" },
+      { "src": "kz-03-reel.jpg", "alt": "Honey blonde curly custom unit" }
+    ],
+    "steps": [
+      { "title": "Choose your look", "text": "Texture, length, density and colour, or upload an inspiration photo." },
+      { "title": "Get a quote", "text": "We confirm the price and production time on WhatsApp." },
+      { "title": "Pay and track", "text": "Pay a deposit online and follow your order until it ships." }
+    ],
+    "cta": "Start a custom order →",
+    "ctaMsg": "Custom order form opens here ✦"
+  },
+  "social": {
+    "title": "Kozababes",
+    "items": [
+      { "src": "kz-06-reel.jpg", "caption": "Silk press energy" },
+      { "src": "kz-01-reel.jpg", "caption": "Length check" },
+      { "src": "kz-07-reel.jpg", "caption": "Brown sugar" },
+      { "src": "kz-02-reel.jpg", "caption": "Volume, always" },
+      { "src": "kz-05-reel.jpg", "caption": "A little surprise" }
+    ]
+  },
+  "footer": {
+    "blurb": "Premium quality wigs and customised machine-made units from Lagos, shipped worldwide.",
+    "columns": [
+      { "title": "Shop", "items": ["All wigs", "Sale", "Custom units", "Gift cards"] },
+      { "title": "Help", "items": ["Shipping", "Wig care", "Returns", "Track order"] },
+      { "title": "Contact", "items": [{ "label": "Instagram", "href": "https://www.instagram.com/koza_hair_plug/" }, "WhatsApp", "BN: 3485403"] }
+    ],
+    "legal": "Koza Hair Plug · Lagos"
+  }
+}

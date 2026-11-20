@@ -1,0 +1,89 @@
+{
+  "template": "booking",
+  "title": "Highlights by Sophie — Lagos Bridal Makeup",
+  "description": "Bridal and studio glam from Osapa London, Lekki. Available to travel. Home of The Pink Print masterclass.",
+  "instagram": "highlightsbysophie",
+  "ogImage": "hbs-13-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FBF1EC", "--soft": "#F4D9D9", "--pink": "#E9A9B6", "--accent": "#C47F86", "--dark": "#4B2B24", "--dark-2": "#6E4339",
+      "--display": "'DM Serif Display',Georgia,serif", "--sans": "'Outfit',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "HS", "lines": ["Highlights", "by Sophie"] },
+  "nav": [
+    { "label": "Services", "href": "#services" },
+    { "label": "The Pink Print", "href": "#feature" },
+    { "label": "Portfolio", "href": "#work" },
+    { "label": "Terms", "href": "#book" }
+  ],
+  "navCta": { "label": "Book a date", "href": "#book" },
+  "hero": {
+    "eyebrow": "Lagos bridal makeup artist · Global educator",
+    "headlineHtml": "Glam that <em>photographs</em> like a dream.",
+    "text": "Bridal and studio glam from Osapa London, Lekki. Available to travel for your wedding in Lagos, Ghana, South Africa or anywhere else.",
+    "primary": { "label": "Check my date →", "href": "#book" },
+    "secondary": { "label": "Join the masterclass", "href": "#feature" },
+    "pills": ["👰 Bridal", "✨ Studio glam", "✈️ Available to travel", "🎓 Trainings"],
+    "main": { "src": "hbs-13-reel.jpg", "alt": "Soft glam by Highlights by Sophie", "pos": "center 30%" },
+    "mini": { "src": "hbs-04-reel.jpg", "alt": "Close-up eye makeup", "pos": "center 30%" },
+    "stampHtml": "The<br>Pink<br>Print"
+  },
+  "services": {
+    "eyebrow": "What I do",
+    "title": "Services",
+    "items": [
+      { "title": "Bridal", "img": "hbs-01-reel.jpg", "pos": "center", "text": "Trad, white wedding and reception looks that last from first look to last dance. @bridesofsophie", "link": "Book bridal →" },
+      { "title": "Studio glam", "img": "hbs-14-reel.jpg", "text": "Birthday shoots, events and special nights at the HBS studio in Osapa London. @highlightsbysophiestudios", "link": "Book studio →" },
+      { "title": "HBS Doll", "img": "hbs-07-reel.jpg", "text": "The signature HBS look: flawless skin, soft sculpt and lashes that do the talking.", "link": "Book the look →" },
+      { "title": "Travel bookings", "img": "hbs-16-reel.jpg", "text": "Destination weddings and events in Ghana, South Africa and beyond. Travel fees are quoted per booking.", "link": "Request a quote →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "3-day intensive upgrade masterclass",
+    "title": "The Pink Print",
+    "sub": "comes home · Lagos, Nigeria",
+    "text": "Three days of hands-on training in the techniques behind the HBS look, taught by Sophie and guest panelists. Reserve your seat and pay online in a few minutes.",
+    "image": "hbs-15.jpg",
+    "facts": [
+      { "label": "Dates", "value": "1–3 Feb 2027" },
+      { "label": "Early bird", "value": "₦500,000", "note": "Closes 8 Jan 2027" },
+      { "label": "Regular", "value": "₦700,000" }
+    ],
+    "countdownTo": "2027-01-08T23:59:00+01:00",
+    "countdownLabel": "left for early-bird pricing",
+    "countdownDone": "Early bird has closed. Regular fee applies.",
+    "cta": "Reserve my seat →",
+    "ctaMsg": "On the live site this opens Paystack to pay for your seat. You get a confirmation email straight after."
+  },
+  "gallery": {
+    "eyebrow": "#sophieonthebeat",
+    "title": "Recent faces",
+    "images": ["hbs-11-reel.jpg", "hbs-03.jpg", "hbs-08-reel.jpg", "hbs-12.jpg", "hbs-06-reel.jpg", "hbs-20-reel.jpg", "hbs-10.jpg", "hbs-22-reel.jpg", "hbs-18-reel.jpg", "hbs-05-reel.jpg", "hbs-19-reel.jpg", "hbs-17.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Bookings for 2026 and 2027",
+    "title": "Check if your date is free",
+    "text": "Send your details and we'll confirm availability and a quote. No more waiting in the DMs.",
+    "terms": [
+      "A deposit secures your date. Dates aren't held without it.",
+      "Travel and accommodation are covered by the client for bookings outside Lagos.",
+      "Early call times (before 6am) attract an extra fee."
+    ],
+    "termsNote": "These are sample terms. The live site would use your own from the Terms highlight.",
+    "dateLabel": "Event date",
+    "extra": { "label": "Number of faces", "options": ["Just me", "2–3", "4–6", "7+"] },
+    "notesPlaceholder": "Your look, outfit colours, inspiration links…",
+    "who": "Sophie's bookings inbox"
+  },
+  "footer": {
+    "blurb": "Lagos bridal makeup artist and global educator. Osapa London, Lekki. Available to travel.",
+    "columns": [
+      { "title": "Book", "items": ["Bridal", "Studio glam", "Travel", "Terms"] },
+      { "title": "Learn", "items": ["The Pink Print", "Trainings", "Masterclass FAQs"] },
+      { "title": "Follow", "items": [{ "label": "@highlightsbysophie", "href": "https://www.instagram.com/highlightsbysophie/" }, "@bridesofsophie", "@highlightsbysophiestudios"] }
+    ],
+    "legal": "Highlights by Sophie · Lagos"
+  }
+}

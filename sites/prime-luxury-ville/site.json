@@ -1,0 +1,98 @@
+{
+  "template": "portfolio",
+  "title": "Prime Luxury Ville — Luxury Interior Design, Lagos",
+  "description": "Timeless residential and commercial interiors across Lagos, Ogun and Abuja. Book a design consultation.",
+  "instagram": "primeluxuryville",
+  "ogImage": "plv-16.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#F6F2EB", "--sand": "#E8DFD1", "--accent": "#B08D57", "--accent-dark": "#8C6D3F", "--dark": "#221B16", "--dark-2": "#3A3029",
+      "--display": "'Marcellus',Georgia,serif", "--sans": "'Manrope',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "Prime", "sub": "LUXURY VILLE" },
+  "nav": [
+    { "label": "Projects", "href": "#work" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Process", "href": "#process" },
+    { "label": "Contact", "href": "#consult" }
+  ],
+  "navCta": { "label": "Book a consultation", "href": "#consult" },
+  "hero": {
+    "img": "plv-16.jpg", "alt": "Bedroom with gold arched headboard wall", "pos": "center 60%",
+    "eyebrow": "Luxury interior design · Lagos",
+    "headline": "Timeless residential & commercial spaces.",
+    "text": "Prime Luxury Ville designs, sources and installs complete interiors across Lagos, Ogun and Abuja, from bare walls to delivery day.",
+    "primary": { "label": "Book a consultation →", "href": "#consult" },
+    "secondary": { "label": "View projects", "href": "#work" }
+  },
+  "strip": [
+    { "value": "91k+", "label": "followers watching the work" },
+    { "value": "Lagos · Ogun · Abuja", "label": "Projects across Nigeria" },
+    { "value": "Full service", "label": "Design, sourcing & installation" },
+    { "value": "Osapa London", "label": "Studio in Lekki, Lagos" }
+  ],
+  "projects": {
+    "eyebrow": "Selected work",
+    "title": "Spaces we've finished",
+    "text": "Each project gets its own page on the live site: the brief, before and after photos, materials and the client's review.",
+    "items": [
+      { "img": "plv-23.jpg", "pos": "center 60%", "kicker": "Residential", "title": "The Emerald Suite" },
+      { "img": "plv-17.jpg", "kicker": "Residential", "title": "Kitchen & Bar" },
+      { "img": "plv-15.jpg", "kicker": "Residential", "title": "The Ivory Lounge" }
+    ],
+    "note": "Project names are placeholders for this concept."
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Services",
+    "items": [
+      { "title": "Residential design", "text": "Full-home interiors, primary suites, kitchens and living spaces designed around how you live." },
+      { "title": "Commercial spaces", "text": "Offices, short-lets, lounges and retail fit-outs that feel as good as they look." },
+      { "title": "Sourcing & furnishing", "text": "Furniture, lighting and finishes sourced, inspected and shipped for you." },
+      { "title": "Turnkey installation", "text": "Our team manages the site through to a styled, move-in-ready reveal." }
+    ]
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "From bare walls to delivery day",
+    "steps": [
+      { "img": "plv-08.jpg", "title": "Consultation", "text": "We visit the site, hear your brief and agree on a budget." },
+      { "img": "plv-11.jpg", "title": "Design", "text": "Concepts, layouts and finishes are planned together with you." },
+      { "img": "plv-05.jpg", "title": "Sourcing", "text": "Every piece is selected and inspected before it ships." },
+      { "img": "plv-22.jpg", "title": "Delivery day", "text": "Installation, styling and the final walkthrough of your space." }
+    ]
+  },
+  "gallery": {
+    "title": "In detail",
+    "images": ["plv-01.jpg", "plv-21.jpg", "plv-03.jpg", "plv-18.jpg", "plv-00.jpg", "plv-02.jpg"]
+  },
+  "consult": {
+    "eyebrow": "Start your project",
+    "title": "Book a design consultation",
+    "text": "Tell us about your space and we'll get back to you within one working day to arrange a site visit.",
+    "contact": [
+      { "label": "Studio", "value": "No 21 Castle Rock Avenue, Osapa London, Lekki, Lagos" },
+      { "label": "Consultations", "value": "+234 810 415 9071" },
+      { "label": "Instagram", "value": "@primeluxuryville" }
+    ],
+    "fields": {
+      "types": ["Full home", "Single room", "Kitchen", "Commercial / office", "Short-let"],
+      "locations": ["Lagos", "Ogun", "Abuja", "Elsewhere"],
+      "budgets": ["₦5m – ₦15m", "₦15m – ₦40m", "₦40m – ₦100m", "₦100m+"],
+      "notesLabel": "About the space",
+      "notesPlaceholder": "Size, current state, the feel you want…"
+    },
+    "submit": "Request consultation",
+    "who": "the studio"
+  },
+  "footer": {
+    "blurb": "Luxury interior design for timeless residential and commercial spaces.",
+    "columns": [
+      { "title": "Studio", "items": ["Projects", "Services", "Process", "Reviews"] },
+      { "title": "Contact", "items": [{ "label": "Instagram", "href": "https://www.instagram.com/primeluxuryville/" }, "WhatsApp", "Osapa London, Lekki"] }
+    ],
+    "legal": "Prime Luxury Ville · Lagos"
+  }
+}
