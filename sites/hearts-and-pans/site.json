@@ -1,0 +1,89 @@
+{
+  "template": "booking",
+  "title": "Hearts & Pans — Boutique Bakery, Lagos",
+  "description": "Boutique bakery in Victoria Island, Lagos, open every day 10am–8pm. Cinnamon rolls, cakes, cupcakes, doughnuts and cold-pressed juices.",
+  "instagram": "heartsandpans",
+  "ogImage": "hp-01.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=DM+Sans:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FBF6EE", "--soft": "#F2E3CC", "--pink": "#E8C78F", "--accent": "#A8641E", "--dark": "#2B1C10", "--dark-2": "#45301D",
+      "--muted": "#85725F", "--line": "#EEE0CB", "--on-dark": "#EEDCC4",
+      "--display": "'Fraunces',Georgia,serif", "--sans": "'DM Sans',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "H&P", "lines": ["Hearts & Pans", "Boutique bakery"] },
+  "nav": [
+    { "label": "Menu", "href": "#services" },
+    { "label": "Visit", "href": "#feature" },
+    { "label": "Bakes", "href": "#work" },
+    { "label": "Order", "href": "#book" }
+  ],
+  "navCta": { "label": "Order ahead", "href": "#book" },
+  "hero": {
+    "eyebrow": "Boutique bakery · Victoria Island, Lagos",
+    "headlineHtml": "Luxuriously <em>self-indulgent.</em>",
+    "text": "Home and heart baked cinnamon rolls, cakes, cupcakes, doughnuts and cold-pressed juices. See today's menu and prices, order ahead and pick up, or get it delivered.",
+    "primary": { "label": "Order ahead →", "href": "#book" },
+    "secondary": { "label": "See the menu", "href": "#services" },
+    "pills": ["🥐 Cinnamon rolls", "🎂 Custom cakes", "🧁 Cupcakes", "🍩 Doughnuts", "🧃 Juices & yoghurt"],
+    "main": { "src": "hp-01.jpg", "alt": "Tray of freshly baked cinnamon rolls", "pos": "center" },
+    "mini": { "src": "hp-09.jpg", "alt": "Pink buttercream cake with gold butterflies", "pos": "center" },
+    "stampHtml": "Open<br>daily<br>10–8"
+  },
+  "services": {
+    "eyebrow": "The menu",
+    "title": "Baked today",
+    "items": [
+      { "title": "Cinnamon rolls & babka", "img": "hp-05.jpg", "pos": "center", "text": "Soft, gooey rolls in classic and special flavours.", "link": "Order a box →" },
+      { "title": "Custom cakes", "img": "hp-03.jpg", "pos": "center", "text": "Birthday and celebration cakes, decorated to order.", "link": "Order a cake →" },
+      { "title": "Cupcakes & treat boxes", "img": "hp-11.jpg", "pos": "center", "text": "Oreo, red velvet and vanilla cupcakes, cookies and parfaits, boxed for gifting.", "link": "Build a box →" },
+      { "title": "Juices & yoghurt", "img": "hp-08.jpg", "pos": "center", "text": "Cold-pressed juices and our thick vanilla yoghurt that customers keep asking for.", "link": "Add drinks →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "Visit the bakery",
+    "title": "Open every day",
+    "sub": "7 Bishop Aboyade Cole Street, Victoria Island",
+    "text": "Drop in for something fresh from the oven, or catch us at pop-ups like the Knorr Jollof Fest and the Fashion Souk. On the live site the full menu and prices sit in one place instead of in Instagram highlights, with order-ahead pickup.",
+    "image": "hp-21.jpg",
+    "facts": [
+      { "label": "Open", "value": "Every day" },
+      { "label": "Hours", "value": "10am – 8pm" },
+      { "label": "Find us", "value": "VI, Lagos" }
+    ],
+    "cta": "Order for pickup →",
+    "ctaMsg": "On the live site customers choose a pickup time and pay online before they arrive."
+  },
+  "gallery": {
+    "eyebrow": "Home and heart baked",
+    "title": "From our ovens",
+    "images": ["hp-07.jpg", "hp-10.jpg", "hp-13.jpg", "hp-16.jpg", "hp-17.jpg", "hp-18.jpg", "hp-20.jpg", "hp-22.jpg", "hp-06.jpg", "hp-15.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Orders",
+    "title": "Order ahead",
+    "text": "Tell us what you'd like and when. We'll confirm by WhatsApp and have it ready.",
+    "terms": [
+      "7 Bishop Aboyade Cole Street, Victoria Island, Lagos.",
+      "Open every day, 10am – 8pm.",
+      "Call or WhatsApp +234 808 839 2113."
+    ],
+    "termsNote": "Custom cake lead times would come from Hearts & Pans' own policy.",
+    "services": ["Cinnamon rolls", "Custom cake", "Cupcakes / treat box", "Doughnuts", "Juices & yoghurt", "Event / bulk order"],
+    "dateLabel": "Pickup / delivery date",
+    "extra": { "label": "How", "options": ["Pick up in VI", "Deliver to me", "Event / bulk"] },
+    "notesPlaceholder": "Flavours, quantities, cake message…",
+    "submit": "Send order",
+    "who": "Hearts & Pans"
+  },
+  "footer": {
+    "blurb": "Boutique bakery in Lagos. Luxuriously self-indulgent, home and heart baked. Home of pastry lovers.",
+    "columns": [
+      { "title": "Menu", "items": ["Cinnamon rolls", "Cakes", "Cupcakes", "Juices"] },
+      { "title": "Visit", "items": ["7 Bishop Aboyade Cole St, VI", "Every day, 10am – 8pm", "+234 808 839 2113"] },
+      { "title": "Follow", "items": [{ "label": "@heartsandpans", "href": "https://www.instagram.com/heartsandpans/" }, "Threads", "Pop-ups"] }
+    ],
+    "legal": "Hearts & Pans · Lagos"
+  }
+}

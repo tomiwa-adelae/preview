@@ -1,0 +1,89 @@
+{
+  "template": "booking",
+  "title": "Zeelicious Cakes — Cakes, Desserts & Small Chops, Lagos",
+  "description": "Celebration cakes, wedding cakes, desserts and small chops in Lagos. See packages and prices, then book your date.",
+  "instagram": "zeeliciouscakess",
+  "ogImage": "zee-06.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FFF7FA", "--soft": "#FCE1EC", "--pink": "#F7B3CE", "--accent": "#E0217A", "--dark": "#2A0F1C", "--dark-2": "#46182E",
+      "--muted": "#8A6A78", "--line": "#F6DCE7", "--on-dark": "#F5D7E4",
+      "--display": "'Playfair Display',Georgia,serif", "--sans": "'Poppins',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "Z", "lines": ["Zeelicious", "Cakes · Lagos"] },
+  "nav": [
+    { "label": "Cakes", "href": "#services" },
+    { "label": "Weddings", "href": "#feature" },
+    { "label": "Gallery", "href": "#work" },
+    { "label": "Order", "href": "#book" }
+  ],
+  "navCta": { "label": "Order a cake", "href": "#book" },
+  "hero": {
+    "eyebrow": "Cakes · Desserts · Small chops · Lagos",
+    "headlineHtml": "Cakes that make the <em>whole room</em> stop.",
+    "text": "Celebration cakes from ₦25,000, dessert boxes, vintage cakes and full wedding cake packages. Pick your cake, choose your date and pay a deposit online. No Google Forms or long WhatsApp threads.",
+    "primary": { "label": "Order a cake →", "href": "#book" },
+    "secondary": { "label": "Wedding packages", "href": "#feature" },
+    "pills": ["🎂 Celebration cakes", "💍 Wedding cakes", "🍰 Dessert boxes", "🍢 Small chops", "👩🏽‍🍳 Cake training"],
+    "main": { "src": "zee-06.jpg", "alt": "Five-tier white wedding cake with red roses by Zeelicious", "pos": "center 40%" },
+    "mini": { "src": "zee-12-reel.jpg", "alt": "Birthday cake with roses and strawberries", "pos": "center 40%" },
+    "stampHtml": "From<br>₦25k"
+  },
+  "services": {
+    "eyebrow": "Order online",
+    "title": "Cakes & desserts",
+    "items": [
+      { "title": "Budget Cake Series", "img": "zee-11-reel.jpg", "pos": "center 40%", "price": "From ₦25,000", "text": "Neat, premium designs and rich, moist flavours without breaking the bank.", "link": "Order now →" },
+      { "title": "Celebration cakes", "img": "zee-05-reel.jpg", "pos": "center 40%", "price": "2 layers, 6\" · ₦75,000", "text": "Vintage piping, florals and toppers, designed around your theme.", "link": "Design yours →" },
+      { "title": "Wafer paper cakes", "img": "zee-16-reel.jpg", "pos": "center 40%", "price": "November offer", "text": "Order a wafer paper cake above ₦200,000 this November and get a free box of desserts worth ₦25,000.", "link": "Claim the offer →" },
+      { "title": "Dessert boxes", "img": "zee-07-reel.jpg", "pos": "center 40%", "price": "₦45,000", "text": "A box of cakes, cups and sweet treats. Great as a gift or an add-on to your cake. @dessertsbyzeelicious", "link": "Add a dessert box →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "Wedding cake & dessert experience",
+    "title": "Wedding packages",
+    "sub": "Sweet Beginnings · Blissful Union · Forever Yours",
+    "text": "Every package includes the wedding cake, dessert servings, dessert table styling, setup, logistics within Lagos and a complimentary consultation. Blissful Union adds a cake tasting box, and Forever Yours adds a 4-tier cake for 200 guests plus a complimentary first-anniversary cake. Dates are limited, so book early.",
+    "image": "zee-01.jpg",
+    "facts": [
+      { "label": "Sweet Beginnings", "value": "₦737,500", "note": "2 tiers · 100 guests" },
+      { "label": "Blissful Union", "value": "₦1,050,250", "note": "3 tiers · 150 guests" },
+      { "label": "Forever Yours", "value": "₦1,455,000", "note": "4 tiers · 200 guests" }
+    ],
+    "cta": "Check my wedding date →",
+    "ctaMsg": "On the live site couples check date availability, pick a package and pay a deposit with Paystack."
+  },
+  "gallery": {
+    "eyebrow": "Fresh from the kitchen",
+    "title": "Recent cakes",
+    "images": ["zee-09-reel.jpg", "zee-10.jpg", "zee-18.jpg", "zee-03-reel.jpg", "zee-08.jpg", "zee-14-reel.jpg", "zee-17-reel.jpg", "zee-23-reel.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Orders",
+    "title": "Order your cake",
+    "text": "Tell us the date, the occasion and the design you have in mind. We'll confirm the price and send a payment link.",
+    "terms": [
+      "Wedding bookings: send your date, venue, guest count and time of event.",
+      "WhatsApp: +234 808 339 1928.",
+      "Logistics within Lagos are included in wedding packages."
+    ],
+    "termsNote": "The live site would also show Zeelicious' own order lead times and deposit policy.",
+    "services": ["Budget cake (from ₦25,000)", "Celebration cake", "Wafer paper cake", "Dessert box (₦45,000)", "Wedding package", "Small chops", "Cake training"],
+    "dateLabel": "Date needed",
+    "extra": { "label": "Delivery", "options": ["Deliver to me (Lagos)", "I'll pick up", "Wedding venue setup"] },
+    "notesPlaceholder": "Flavour, size, colours, inscription, inspiration…",
+    "submit": "Send order request",
+    "who": "the Zeelicious team"
+  },
+  "footer": {
+    "blurb": "Cakes, desserts, vintage cakes and small chops in Lagos. Award-winning and loved by our clients.",
+    "columns": [
+      { "title": "Order", "items": ["Celebration cakes", "Wedding packages", "Dessert boxes", "Small chops"] },
+      { "title": "Learn", "items": ["@zeeliciouscakessacademy", "Beginners baking class", "Cake decorating"] },
+      { "title": "Follow", "items": [{ "label": "@zeeliciouscakess", "href": "https://www.instagram.com/zeeliciouscakess/" }, "@dessertsbyzeelicious", "+234 808 339 1928"] }
+    ],
+    "legal": "Zeelicious Cakes · Lagos"
+  }
+}

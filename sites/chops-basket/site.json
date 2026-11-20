@@ -1,0 +1,89 @@
+{
+  "template": "booking",
+  "title": "Chops Basket — Premium Small Chops & Grills, Lagos",
+  "description": "Premium small chops, catering and grills in Lekki and Surulere. Order a Selfie Box or book catering for weddings, birthdays and corporate events.",
+  "instagram": "chopsbasket.ng",
+  "ogImage": "chop-10.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FFF8EE", "--soft": "#FCE8C8", "--pink": "#F6C76B", "--accent": "#B3141E", "--dark": "#2A0A0B", "--dark-2": "#4A1416",
+      "--muted": "#866A5A", "--line": "#F2E0C4", "--on-dark": "#F5DCC4",
+      "--display": "'Fraunces',Georgia,serif", "--sans": "'Inter',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "CB", "lines": ["Chops Basket", "Small chops · Lagos"] },
+  "nav": [
+    { "label": "Menu", "href": "#services" },
+    { "label": "Catering", "href": "#feature" },
+    { "label": "Gallery", "href": "#work" },
+    { "label": "Order", "href": "#book" }
+  ],
+  "navCta": { "label": "Order now", "href": "#book" },
+  "hero": {
+    "eyebrow": "Premium small chops catering & grills",
+    "headlineHtml": "Delicious bites, <em>endless delights.</em>",
+    "text": "Small chops, grills, seafood and pasta from our kitchens in Lekki and Surulere. Order a box for today or book catering for your wedding, birthday or office event, and pay online.",
+    "primary": { "label": "Order a Selfie Box →", "href": "#book" },
+    "secondary": { "label": "Book event catering", "href": "#feature" },
+    "pills": ["🍢 Small chops", "🍗 Grills", "🦐 Seafood", "🍝 Pasta", "🎉 Event catering"],
+    "main": { "src": "chop-10.jpg", "alt": "Box of small chops with BBQ chicken, corn and spring rolls", "pos": "center" },
+    "mini": { "src": "chop-03-reel.jpg", "alt": "Puff-puff frying in hot oil", "pos": "center" },
+    "stampHtml": "60k+<br>happy<br>tummies"
+  },
+  "services": {
+    "eyebrow": "On the menu",
+    "title": "Order today",
+    "items": [
+      { "title": "Selfie Box", "img": "chop-12-reel.jpg", "pos": "center", "price": "₦9,000", "text": "2 chicken spring rolls, 2 beef samosas, spicy butter corn, mini panny, a beef skewer and BBQ chicken.", "link": "Order a Selfie Box →" },
+      { "title": "Event packs", "img": "chop-13.jpg", "pos": "center", "text": "Individually wrapped small chops packs for guests, beautifully packaged.", "link": "Get a quote →" },
+      { "title": "Grills & seafood", "img": "chop-04.jpg", "pos": "center", "text": "Prawns, fish and grilled chicken, prepared to satisfy your cravings.", "link": "Order grills →" },
+      { "title": "Pasta & mains", "img": "chop-21-reel.jpg", "pos": "center", "text": "Stir-fry pasta with BBQ chicken, packed hot for delivery.", "link": "Order pasta →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "Book us for your next event",
+    "title": "Event catering",
+    "sub": "weddings · birthdays · corporate events",
+    "text": "Delicious, consistent taste with quality ingredients and great presentation, from a professional, reliable team, with flexible packages to suit your event. On the live site clients choose a package, enter their guest count and get a quote straight away.",
+    "image": "chop-16.jpg",
+    "facts": [
+      { "label": "Happy tummies", "value": "60k+" },
+      { "label": "Kitchens", "value": "Lekki & Surulere" },
+      { "label": "Packages", "value": "Flexible" }
+    ],
+    "cta": "Plan my event menu →",
+    "ctaMsg": "On the live site this opens the catering quote builder with Paystack deposit."
+  },
+  "gallery": {
+    "eyebrow": "As e dey hot",
+    "title": "From our kitchen",
+    "images": ["chop-09-reel.jpg", "chop-06-reel.jpg", "chop-15-reel.jpg", "chop-18-reel.jpg", "chop-07.jpg", "chop-00-reel.jpg", "chop-01-reel.jpg", "chop-02-reel.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Orders & catering",
+    "title": "Place an order",
+    "text": "Order boxes for delivery today, or tell us about your event and we'll send a menu and quote.",
+    "terms": [
+      "Lekki: Shore Mall, Ganiu Eletu Way, Osapa London.",
+      "Surulere: Okose Lane.",
+      "Call 0811 359 9568 · WhatsApp 0806 246 9735."
+    ],
+    "termsNote": "Delivery zones and order cut-off times would come from Chops Basket's own FAQ.",
+    "services": ["Selfie Box (₦9,000)", "Small chops tray", "Grills & seafood", "Pasta", "Wedding catering", "Birthday catering", "Corporate event"],
+    "dateLabel": "Delivery / event date",
+    "extra": { "label": "Guests / boxes", "options": ["1–5", "6–20", "20–100", "100+"] },
+    "notesPlaceholder": "Delivery address, event venue, time…",
+    "submit": "Send order",
+    "who": "the Chops Basket team"
+  },
+  "footer": {
+    "blurb": "Premium small chops catering and grills in Lagos. From our kitchen to 60k+ happy tummies.",
+    "columns": [
+      { "title": "Menu", "items": ["Selfie Box", "Small chops", "Grills & seafood", "Pasta"] },
+      { "title": "Find us", "items": ["Shore Mall, Osapa London, Lekki", "Okose Lane, Surulere", "0811 359 9568"] },
+      { "title": "Follow", "items": [{ "label": "@chopsbasket.ng", "href": "https://www.instagram.com/chopsbasket.ng/" }, "Reviews", "FAQ"] }
+    ],
+    "legal": "Chops Basket · Lagos"
+  }
+}
