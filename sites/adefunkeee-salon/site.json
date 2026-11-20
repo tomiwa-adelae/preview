@@ -1,0 +1,89 @@
+{
+  "template": "booking",
+  "title": "Adefunkeee Salon — Frontal Wigs, Styling & Nails, Lekki",
+  "description": "Lagos hairstyling salon in Lekki Phase 1. Frontal installs, sleek ponytails, styling and nails. Book your slot online.",
+  "instagram": "adefunkeee_salon",
+  "ogImage": "ade-12-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Jost:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#F7F5F2", "--soft": "#ECE7E0", "--pink": "#E2D3C2", "--accent": "#A9824A", "--dark": "#141414", "--dark-2": "#2E2B28",
+      "--muted": "#7C766F", "--line": "#E5DFD7", "--on-dark": "#DAD3CA",
+      "--display": "'Bodoni Moda',Georgia,serif", "--sans": "'Jost',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "AF", "lines": ["Adefunkeee", "Salon · Lekki"] },
+  "nav": [
+    { "label": "Services", "href": "#services" },
+    { "label": "Wigs", "href": "#feature" },
+    { "label": "Looks", "href": "#work" },
+    { "label": "Policy", "href": "#book" }
+  ],
+  "navCta": { "label": "Book a slot", "href": "#book" },
+  "hero": {
+    "eyebrow": "Lagos hairstyling salon · Lekki Phase 1",
+    "headlineHtml": "A good hair day <em>starts</em> from here.",
+    "text": "Seamless frontal installs, sleek ponytails and styling that lasts, plus nails while you're in the chair. Book your slot below instead of sending a DM.",
+    "primary": { "label": "Book my slot →", "href": "#book" },
+    "secondary": { "label": "See recent looks", "href": "#work" },
+    "pills": ["💇🏾‍♀️ Frontal installs", "✨ Ponytails", "🌀 Curls & styling", "💅🏾 Nails"],
+    "main": { "src": "ade-12-reel.jpg", "alt": "Sleek straight frontal install at Adefunkeee Salon", "pos": "center 25%" },
+    "mini": { "src": "ade-01-reel.jpg", "alt": "Long straight frontal install", "pos": "center 25%" },
+    "stampHtml": "Walk-ins<br>&amp;<br>bookings"
+  },
+  "services": {
+    "eyebrow": "The menu",
+    "title": "Services",
+    "items": [
+      { "title": "Frontal install", "img": "ade-14-reel.jpg", "pos": "center 25%", "text": "Clean, flat, melted lace that looks like it grew there.", "link": "Book an install →" },
+      { "title": "Frontal ponytail", "img": "ade-16-reel.jpg", "pos": "center 25%", "text": "Sleek ponytails with laid edges, swoop or bangs.", "link": "Book a ponytail →" },
+      { "title": "Curls & styling", "img": "ade-10-reel.jpg", "pos": "center 25%", "text": "Bouncy curls, waves and revamps for your existing units.", "link": "Book styling →" },
+      { "title": "Colour & revamp", "img": "ade-06-reel.jpg", "pos": "center 25%", "text": "Wig colouring, washing and revamping to make old units look new.", "link": "Book a revamp →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "Hair by Adefunkeee",
+    "title": "Buy the wig, book the install",
+    "sub": "in one checkout",
+    "text": "Our wigs come from @hairbyadefunkeee. On the live site, customers buy a unit and book the install together. They pay once and the stylist knows exactly what's coming.",
+    "image": "ade-22-reel.jpg",
+    "facts": [
+      { "label": "Wigs", "value": "In-house" },
+      { "label": "Walk-ins", "value": "Welcome" },
+      { "label": "Where", "value": "Lekki Ph. 1", "note": "Off Fola Osibo" }
+    ],
+    "cta": "Shop wigs + install →",
+    "ctaMsg": "On the live site this opens the wig shop with an 'add install' option at checkout."
+  },
+  "gallery": {
+    "eyebrow": "Fresh from the chair",
+    "title": "Recent looks",
+    "images": ["ade-04-reel.jpg", "ade-07-reel.jpg", "ade-09-reel.jpg", "ade-05-reel.jpg", "ade-19-reel.jpg", "ade-13-reel.jpg", "ade-08-reel.jpg", "ade-20-reel.jpg", "ade-15-reel.jpg", "ade-17-reel.jpg", "ade-23-reel.jpg", "ade-00-reel.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Book with the best team",
+    "title": "Book your slot",
+    "text": "Pick your service, day and time and we'll confirm on WhatsApp. Our policy is shown before you book, so there are no surprises.",
+    "terms": [
+      "10a Kafayat Abdulrazaaq Street, off Fola Osibo, Lekki Phase 1.",
+      "WhatsApp 0818 395 7348 to book. Walk-ins are welcome.",
+      "A deposit secures your slot. Lateness over 30 minutes may be rescheduled."
+    ],
+    "termsNote": "Deposit and lateness terms are samples. The live site would show Adefunkeee's own Policy highlight.",
+    "services": ["Frontal install", "Closure install", "Frontal ponytail", "Curls / styling", "Wig revamp", "Wig colouring", "Nails", "Install + nails"],
+    "dateLabel": "Preferred date",
+    "extra": { "label": "Bringing your own wig?", "options": ["Yes, I have my unit", "No, I want to buy one", "Not sure yet"] },
+    "notesPlaceholder": "Inspo picture link, length, parting…",
+    "submit": "Request slot",
+    "who": "the Adefunkeee team"
+  },
+  "footer": {
+    "blurb": "Hair & beauty salon in Lekki Phase 1. A good hair day starts from here.",
+    "columns": [
+      { "title": "Services", "items": ["Frontal installs", "Ponytails", "Styling", "Nails"] },
+      { "title": "Visit", "items": ["10a Kafayat Abdulrazaaq St", "Lekki Phase 1, Lagos", "0818 395 7348"] },
+      { "title": "Follow", "items": [{ "label": "@adefunkeee_salon", "href": "https://www.instagram.com/adefunkeee_salon/" }, "@hairbyadefunkeee", "Reviews"] }
+    ],
+    "legal": "Adefunkeee Salon · Lekki, Lagos"
+  }
+}

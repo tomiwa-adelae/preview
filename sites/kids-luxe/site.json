@@ -1,0 +1,107 @@
+{
+  "template": "store",
+  "title": "Kids Luxe Community — Premium UK & US Kidswear, Lagos",
+  "description": "Premium UK & US kidswear, brand-new and handpicked thrift finds, from Ojodu, Lagos. Shop by age and get nationwide delivery.",
+  "instagram": "kids_luxe_community",
+  "ogImage": "kids-10.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Nunito:wght@300;400;600;700&display=swap",
+    "vars": {
+      "--dark": "#283041", "--dark-2": "#364057", "--accent": "#E08A1E", "--accent-soft": "#FFD98A",
+      "--bg": "#FFF8EC", "--sale": "#D9443A",
+      "--display": "'Fredoka',system-ui,sans-serif", "--sans": "'Nunito',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "Kids Luxe", "sub": "COMMUNITY" },
+  "ticker": ["Premium UK & US kidswear", "Brand-new and handpicked thrift finds", "Nationwide delivery", "New stock every week"],
+  "nav": [
+    { "label": "New in", "href": "#shop" },
+    { "label": "Baby bundles", "href": "#custom" },
+    { "label": "Happy moms", "href": "#social" },
+    { "label": "Delivery", "href": "#info" }
+  ],
+  "hero": {
+    "eyebrow": "Baby & kids clothing · Ojodu, Lagos",
+    "headlineHtml": "Dress your little ones <em>in style.</em>",
+    "text": "Premium UK & US kidswear, brand-new and handpicked thrift finds. Shop by age, see what's in stock right now and check out in minutes, with no waiting in the DMs.",
+    "primary": { "label": "Shop new in →", "href": "#shop" },
+    "secondary": { "label": "Newborn bundles", "href": "#custom" },
+    "stats": [
+      { "value": "34k+", "label": "moms following" },
+      { "value": "UK & US", "label": "Premium brands" },
+      { "value": "Nationwide", "label": "Delivery" }
+    ],
+    "images": [
+      { "src": "kids-10.jpg", "alt": "Summer 3-piece set: two tees and shorts", "pos": "center" },
+      { "src": "kids-18.jpg", "alt": "Yellow plaid hoodie with jeans", "pos": "center" }
+    ],
+    "pricePop": { "was": "₦246,500", "now": "₦241,500", "label": "Newborn starter bundle" }
+  },
+  "shop": {
+    "eyebrow": "Fresh this week",
+    "title": "New in",
+    "currency": "₦",
+    "filters": [
+      { "key": "2-3", "label": "2–3 years" },
+      { "key": "3-4", "label": "3–4 years" },
+      { "key": "4-5", "label": "4–5 years" },
+      { "key": "5-6", "label": "5–6 years" }
+    ],
+    "products": [
+      { "name": "Plaid Hoodie & Jeans Set", "meta": "3 years · 2 pieces", "img": "kids-18.jpg", "now": 26000, "tags": ["3-4"] },
+      { "name": "Summer 3-Piece Set", "meta": "4 years · 2 tees + shorts", "img": "kids-10.jpg", "now": 24000, "was": 27000, "tags": ["4-5"] },
+      { "name": "Baseball Tee & Shorts", "meta": "5 years · 2 pieces", "img": "kids-03.jpg", "now": 22000, "tags": ["5-6"] },
+      { "name": "Polo & Shorts Set", "meta": "2–3 years · cobalt", "img": "kids-20.jpg", "now": 18500, "tags": ["2-3"] },
+      { "name": "Suspender Jeans", "meta": "3–4 years", "img": "kids-12.jpg", "now": 17000, "tags": ["3-4"] },
+      { "name": "Red Buffalo Check Shirt", "meta": "4–5 years", "img": "kids-05.jpg", "now": 15000, "tags": ["4-5"] },
+      { "name": "Tropical Print Shirt", "meta": "3 years", "img": "kids-14.jpg", "now": 14000, "was": 16000, "tags": ["3-4"] },
+      { "name": "Navy Check Shirt", "meta": "6 years", "img": "kids-02.jpg", "now": 15000, "tags": ["5-6"] },
+      { "name": "Shark Tee 2-Pack", "meta": "2–3 years", "img": "kids-22.jpg", "now": 16500, "tags": ["2-3"] },
+      { "name": "Ombré Hooded Tee", "meta": "4 years", "img": "kids-08.jpg", "now": 13500, "tags": ["4-5"] },
+      { "name": "Classic Red Polo", "meta": "4–5 years", "img": "kids-06.jpg", "now": 12000, "tags": ["4-5"] },
+      { "name": "Slim Blue Jeans", "meta": "5 years", "img": "kids-04.jpg", "now": 16000, "tags": ["5-6"] }
+    ],
+    "note": "Item names and prices are placeholders for this concept. The newborn bundle prices are from Kids Luxe's own posts."
+  },
+  "trust": [
+    { "title": "Brand-new & thrift", "text": "Every piece is clearly labelled as brand-new or a handpicked thrift find." },
+    { "title": "Nationwide delivery", "text": "Dispatched from Ojodu, Lagos, to anywhere in Nigeria." },
+    { "title": "Pay securely", "text": "Card, transfer or USSD through Paystack. No more sending receipts in the DMs." },
+    { "title": "Sizes by age", "text": "Every item is tagged by age so you find the right fit fast." }
+  ],
+  "custom": {
+    "eyebrow": "Newborn & baby bundles",
+    "title": "Everything baby needs, in one box.",
+    "text": "Bodysuits, sleepsuits, bibs, hats and towels, packed into ready-made bundles. Buy one as is, or build your own and we'll pack it for you.",
+    "images": [
+      { "src": "kids-00-reel.jpg", "alt": "Baby girl bundle: was ₦246,500, now ₦241,500" },
+      { "src": "kids-01-reel.jpg", "alt": "Baby bundle: was ₦255,500, now ₦250,500" }
+    ],
+    "steps": [
+      { "title": "Pick a bundle", "text": "Baby girl, baby boy or neutral, sized newborn to 12 months." },
+      { "title": "Swap and add", "text": "Change pieces or add extras like towels and bibs." },
+      { "title": "Gift-ready delivery", "text": "Packed and delivered anywhere in Nigeria. Perfect for baby showers." }
+    ],
+    "cta": "Build a bundle →",
+    "ctaMsg": "The bundle builder opens here ✦"
+  },
+  "social": {
+    "title": "Happy moms, stylish kids",
+    "items": [
+      { "src": "kids-07.jpg", "caption": "Twinning tees" },
+      { "src": "kids-09.jpg", "caption": "Summer checks" },
+      { "src": "kids-16.jpg", "caption": "Weekend ready" },
+      { "src": "kids-13.jpg", "caption": "Party shirt" },
+      { "src": "kids-17.jpg", "caption": "Church fit" }
+    ]
+  },
+  "footer": {
+    "blurb": "Helping moms dress their little ones in style. Premium UK & US kidswear from Ojodu, Lagos.",
+    "columns": [
+      { "title": "Shop", "items": ["New in", "Baby bundles", "Boys", "Girls"] },
+      { "title": "Help", "items": ["How to order", "Delivery", "Size by age", "Reviews"] },
+      { "title": "Contact", "items": [{ "label": "Instagram", "href": "https://www.instagram.com/kids_luxe_community/" }, "WhatsApp", "Ojodu, Lagos"] }
+    ],
+    "legal": "Kids Luxe Community · Lagos"
+  }
+}

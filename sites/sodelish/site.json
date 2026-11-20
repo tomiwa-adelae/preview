@@ -1,0 +1,89 @@
+{
+  "template": "booking",
+  "title": "Sodelish — Lagos Event Caterer",
+  "description": "Food worth gathering for. Event catering for weddings, corporate and private events, plus home deliveries in Lagos.",
+  "instagram": "_sodelishcatering",
+  "ogImage": "sod-04-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FAF6FB", "--soft": "#EADFF0", "--pink": "#CDB4DE", "--accent": "#7A3E9D", "--dark": "#2A1733", "--dark-2": "#47305A",
+      "--muted": "#7E6F87", "--line": "#E8DEEE", "--on-dark": "#E2D6EA",
+      "--display": "'Young Serif',Georgia,serif", "--sans": "'Figtree',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "S", "lines": ["Sodelish", "Event catering · Lagos"] },
+  "nav": [
+    { "label": "Catering", "href": "#services" },
+    { "label": "Sodelish at Home", "href": "#feature" },
+    { "label": "The food", "href": "#work" },
+    { "label": "Get a quote", "href": "#book" }
+  ],
+  "navCta": { "label": "Get a quote", "href": "#book" },
+  "hero": {
+    "eyebrow": "Lagos event caterer",
+    "headlineHtml": "Food worth <em>gathering</em> for.",
+    "text": "Weddings, corporate events and private dinners, catered with the standard your guests will remember. Send your date and guest count and we'll curate your menu.",
+    "primary": { "label": "Get a catering quote →", "href": "#book" },
+    "secondary": { "label": "Order trays for home", "href": "#feature" },
+    "pills": ["💍 Weddings", "🏢 Corporate", "🥂 Private events", "🍱 Lunch packs", "🏠 Home deliveries"],
+    "main": { "src": "sod-04-reel.jpg", "alt": "Sodelish buffet trays: peppered prawns, stir-fry and chicken", "pos": "center" },
+    "mini": { "src": "sod-19-reel.jpg", "alt": "Plated dinner with mash and glazed beef", "pos": "center" },
+    "stampHtml": "Food<br>worth<br>gathering for"
+  },
+  "services": {
+    "eyebrow": "What we cater",
+    "title": "Services",
+    "items": [
+      { "title": "Weddings & parties", "img": "sod-06-reel.jpg", "pos": "center", "text": "Buffets and served menus for big days, from small-chops to the last tray.", "link": "Quote my event →" },
+      { "title": "Corporate & lunch packs", "img": "sod-21-reel.jpg", "pos": "center", "text": "Office lunches, meetings and corporate events, with packs delivered on time.", "link": "Quote for my office →" },
+      { "title": "Private dining", "img": "sod-10-reel.jpg", "pos": "center", "text": "Five-course dinners and intimate gatherings, plated and served at your home.", "link": "Book a dinner →" },
+      { "title": "Trays & bulk orders", "img": "sod-23-reel.jpg", "pos": "center", "text": "Large trays for house parties, housewarmings and get-togethers.", "link": "Order trays →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "@sodelishathome",
+    "title": "Sodelish at Home",
+    "sub": "home orders with 24–48 hours' notice",
+    "text": "Jollof, fried rice, proteins and sides in trays for the house, a get-together or game night. On the live site you choose from the menu, pick a delivery date and pay online, with no back-and-forth to place an order.",
+    "image": "sod-00-reel.jpg",
+    "facts": [
+      { "label": "Notice", "value": "24–48 hrs" },
+      { "label": "Call", "value": "0908 583 9797", "note": "or 0708 181 2166" },
+      { "label": "Delivery", "value": "Across Lagos" }
+    ],
+    "cta": "See the home menu →",
+    "ctaMsg": "On the live site this opens the Sodelish at Home menu with tray sizes, prices and Paystack checkout."
+  },
+  "gallery": {
+    "eyebrow": "From our kitchen",
+    "title": "The food",
+    "images": ["sod-14-reel.jpg", "sod-01-reel.jpg", "sod-11-reel.jpg", "sod-15-reel.jpg", "sod-13-reel.jpg", "sod-17-reel.jpg", "sod-20-reel.jpg", "sod-16-reel.jpg", "sod-05-reel.jpg", "sod-22-reel.jpg", "sod-07-reel.jpg", "sod-18-reel.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Weddings · Corporate · Private events",
+    "title": "Get a catering quote",
+    "text": "Send your date and guest count and we'll curate your menu and send a quote.",
+    "terms": [
+      "Event catering: WhatsApp 0908 583 9797.",
+      "Home orders: @sodelishathome, with 24–48 hours' notice.",
+      "A deposit confirms your date and menu."
+    ],
+    "termsNote": "The deposit term is a sample. The live site would use Sodelish's own terms.",
+    "services": ["Wedding", "Birthday / private party", "Corporate event", "Office lunch packs", "Private dinner (5-course)", "House party trays"],
+    "dateLabel": "Event date",
+    "extra": { "label": "Guest count", "options": ["Under 30", "30–100", "100–300", "300+"] },
+    "notesPlaceholder": "Venue, cuisine preferences, buffet or served, dietary needs…",
+    "submit": "Request quote",
+    "who": "the Sodelish team"
+  },
+  "footer": {
+    "blurb": "Lagos event caterer. Weddings, corporate and private events. Home deliveries via @sodelishathome.",
+    "columns": [
+      { "title": "Catering", "items": ["Weddings", "Corporate", "Private dining", "Lunch packs"] },
+      { "title": "Contact", "items": ["Events: 0908 583 9797", "Also: 0708 181 2166", "Lagos"] },
+      { "title": "Follow", "items": [{ "label": "@_sodelishcatering", "href": "https://www.instagram.com/_sodelishcatering/" }, "@sodelishathome", "Reviews"] }
+    ],
+    "legal": "Sodelish · Lagos"
+  }
+}

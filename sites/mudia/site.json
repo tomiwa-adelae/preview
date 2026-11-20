@@ -1,0 +1,112 @@
+{
+  "template": "fashion",
+  "title": "Mudia Fashion Studio — Made-to-Order Akwete, Lagos",
+  "description": "Made-to-order Akwete sets from Lagos, delivered worldwide. Shop the Stellar Collection online.",
+  "instagram": "mudia.fashion.studio",
+  "ogImage": "mudia-01.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500&display=swap",
+    "vars": {
+      "--bg": "#FBF6EF", "--stone": "#EFE4D6", "--ink": "#1F1A17", "--muted": "#7D7066", "--accent": "#C2462B",
+      "--story-bg": "#F6E3D3", "--hero-bg": "#F1D9B5",
+      "--serif": "'DM Serif Display',Georgia,serif", "--sans": "'Outfit',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "MUDIA", "sub": "fashion studio" },
+  "announce": "The Stellar Collection is out now · Made to order in Lagos · Worldwide delivery",
+  "nav": [
+    { "label": "Shop", "href": "#shop" },
+    { "label": "Akwete", "href": "#details" },
+    { "label": "Corporate", "href": "#story" },
+    { "label": "Reviews", "href": "#social" }
+  ],
+  "hero": {
+    "eyebrow": "Made to order · Lagos to the world",
+    "headlineHtml": "Akwete,<br>cut for <em>now.</em>",
+    "text": "Bold, hand-woven Akwete made into sets you'll be stopped and asked about. Pick your style and print, add your size, and pay online. Delivered anywhere in the world.",
+    "primary": { "label": "Shop the sets →", "href": "#shop" },
+    "secondary": { "label": "About the fabric", "href": "#details" },
+    "main": { "src": "mudia-01.jpg", "alt": "Woman in a yellow and green Akwete set by Mudia", "pos": "center 30%" },
+    "side": { "src": "mudia-03-reel.jpg", "alt": "Rail of Mudia Akwete corset tops", "pos": "center" },
+    "tag": { "eyebrow": "Out today", "title": "The Stellar Collection", "text": "20.11.2026" }
+  },
+  "marquee": ["Made to order", "Akwete", "Worldwide delivery", "The Stellar Collection", "Mudia woman"],
+  "colours": {
+    "eyebrow": "Shop by print",
+    "titleHtml": "Every print,<br>a statement.",
+    "items": [
+      { "key": "berry", "label": "Berry", "sub": "Marlene Set", "img": "mudia-12-reel.jpg", "pos": "center 35%" },
+      { "key": "cobalt", "label": "Cobalt", "sub": "Queen K Set", "img": "mudia-14-reel.jpg", "pos": "center 35%" },
+      { "key": "ember", "label": "Ember", "sub": "Marlene Set", "img": "mudia-18-reel.jpg", "pos": "center 35%" }
+    ]
+  },
+  "shop": {
+    "eyebrow": "Akwete sets",
+    "title": "Shop the collection",
+    "link": { "label": "Size chart", "href": "#" },
+    "usd": false,
+    "colors": { "berry": "#B03A7A", "cobalt": "#2747B8", "ember": "#D9532B", "sun": "#E8B923", "forest": "#2F6B3E", "violet": "#5B3D8C", "teal": "#1F6F78", "olive": "#7C8A2E", "mono": "#2B2B2B", "multi": "#C8452E" },
+    "products": [
+      { "name": "Marlene Set", "sub": "Size 16–22: ₦160,000", "ngn": 150000, "badge": "Bestseller", "color": "berry", "img": { "berry": "mudia-12-reel.jpg", "cobalt": "mudia-13-reel.jpg", "ember": "mudia-18-reel.jpg" } },
+      { "name": "Queen K Set", "sub": "Size 16–22: ₦160,000", "ngn": 150000, "color": "cobalt", "img": { "cobalt": "mudia-14-reel.jpg" } },
+      { "name": "Nneka Set", "sub": "Size 16–22: ₦160,000", "ngn": 150000, "color": "sun", "img": { "sun": "mudia-08-reel.jpg" } },
+      { "name": "Abbie Set", "sub": "Size 16–22: ₦170,000", "ngn": 160000, "badge": "New", "color": "multi", "img": { "multi": "mudia-22-reel.jpg" } },
+      { "name": "Lynda Set", "sub": "Full set with kimono · two-piece ₦85,000", "ngn": 120000, "color": "forest", "img": { "forest": "mudia-09-reel.jpg" } },
+      { "name": "Sasu Set", "sub": "Plus size: ₦90,000", "ngn": 85000, "color": "violet", "img": { "violet": "mudia-10-reel.jpg", "teal": "mudia-21-reel.jpg" } },
+      { "name": "Ishola Set", "sub": "Size 16–22: ₦90,000", "ngn": 85000, "color": "mono", "img": { "mono": "mudia-20-reel.jpg" } },
+      { "name": "Omolola Set", "sub": "Size 16–22: ₦95,000", "ngn": 80000, "color": "olive", "img": { "olive": "mudia-15-reel.jpg" } }
+    ],
+    "note": "Names and prices are from Mudia's own posts. Matching each price to its photo is a best guess for this concept."
+  },
+  "details": {
+    "eyebrow": "The fabric",
+    "titleHtml": "Hand-woven Akwete,<br>made to your size.",
+    "images": [
+      { "src": "mudia-02-reel.jpg", "alt": "Close-up of an Akwete corset top with ruffles" },
+      { "src": "mudia-17.jpg", "alt": "Red Akwete corset gown with fringe" }
+    ],
+    "feats": [
+      { "title": "Akwete fabric", "text": "Bold hand-woven prints, and no two sets are exactly alike.", "swatch": "#C2462B" },
+      { "title": "Sizes 6–22", "text": "Standard and plus sizes, with our size chart to guide you.", "swatch": "#E8B923" },
+      { "title": "Made to order", "text": "Each set is cut and sewn for you in our Lagos studio.", "swatch": "#2747B8" },
+      { "title": "Worldwide delivery", "text": "Tracked shipping from Lagos to wherever you are.", "swatch": "#2F6B3E" }
+    ]
+  },
+  "story": {
+    "img": "mudia-04-reel.jpg", "alt": "Pink tailored suit from Corporate Wears by Mudia",
+    "eyebrow": "Corporate wears by Mudia",
+    "titleHtml": "Monday to Friday,<br>still Mudia.",
+    "text": "Our corporate line brings the same attention to tailored suits and workwear. On the live site it gets its own shop, so customers can buy both in one place.",
+    "cta": { "label": "See corporate wears →", "href": "https://www.instagram.com/corporatewearsbymudia/" }
+  },
+  "social": {
+    "title": "Mudia women",
+    "items": [
+      { "src": "mudia-05-reel.jpg", "alt": "Customer wearing the Ishola tube set", "video": true },
+      { "src": "mudia-16.jpg", "alt": "Customer in a black and white Akwete set" },
+      { "src": "mudia-23-reel.jpg", "alt": "Orange print shirt and shorts set", "video": true },
+      { "src": "mudia-19-reel.jpg", "alt": "Launching the Stellar Collection", "video": true },
+      { "src": "mudia-11-reel.jpg", "alt": "Behind the scenes of the Stellar Collection", "video": true }
+    ]
+  },
+  "info": [
+    { "title": "Worldwide delivery", "text": "Tracked from Lagos to your door." },
+    { "title": "Size chart", "text": "Sizes 6–22, with plus-size pricing shown upfront." },
+    { "title": "Order online", "text": "No DMs. Pay by card or transfer and get a receipt." },
+    { "title": "Reviews", "text": "See what Mudia women are saying." }
+  ],
+  "join": {
+    "eyebrow": "Join the list",
+    "titleHtml": "First to know<br>when we drop.",
+    "text": "New collections, restocks and early access to launches like Stellar."
+  },
+  "footer": {
+    "blurb": "Made-to-order clothing brand in Lagos. Worldwide delivery.",
+    "columns": [
+      { "title": "Shop", "items": ["Mudia Woman", "Mudia Men", "Stellar Collection", "Corporate wears"] },
+      { "title": "Help", "items": ["Size chart", "Orders", "Delivery", "Reviews"] },
+      { "title": "Follow", "items": [{ "label": "Instagram", "href": "https://www.instagram.com/mudia.fashion.studio/" }, "@corporatewearsbymudia", "WhatsApp"] }
+    ],
+    "legal": "Mudia Fashion Studio · Lagos"
+  }
+}
