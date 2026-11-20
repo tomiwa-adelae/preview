@@ -1,0 +1,112 @@
+{
+  "template": "fashion",
+  "title": "Tellas — For the IT-Girls",
+  "description": "Fashion brand in Lagos, crafted in Nigeria. Dresses, sets and bikinis in sizes 6–22, with same-day delivery in Lagos and worldwide shipping.",
+  "instagram": "tellas_official",
+  "ogImage": "tel-03.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Gilda+Display&family=Jost:wght@300;400;500&display=swap",
+    "vars": {
+      "--bg": "#FAF7F7", "--stone": "#EEE6E8", "--ink": "#1F1B1D", "--muted": "#857A7E", "--accent": "#D63C7A",
+      "--story-bg": "#F8DCE7", "--hero-bg": "#EDE6E8",
+      "--serif": "'Gilda Display',Georgia,serif", "--sans": "'Jost',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "TELLAS", "sub": "for the it-girls" },
+  "announce": "Same-day delivery in Lagos on selected styles · Worldwide shipping · Sizes 6–22",
+  "nav": [
+    { "label": "New in", "href": "#shop" },
+    { "label": "Dresses", "href": "#colours" },
+    { "label": "Delivery", "href": "#details" },
+    { "label": "#tellasbabes", "href": "#social" }
+  ],
+  "hero": {
+    "eyebrow": "Crafted in Nigeria · For the IT-Girls",
+    "headlineHtml": "Your next<br><em>IT-Girl</em> outfit.",
+    "text": "Bodycon dresses, maxis, sets and bikinis in sizes 6–22. Pick your style and size, pay online and track your delivery. No DMs needed.",
+    "primary": { "label": "Shop new in →", "href": "#shop" },
+    "secondary": { "label": "Delivery times", "href": "#details" },
+    "main": { "src": "tel-03.jpg", "alt": "Woman in a teal halter maxi dress by Tellas", "pos": "center 30%" },
+    "side": { "src": "tel-19.jpg", "alt": "Pink and black print dress by Tellas", "pos": "center 30%" },
+    "tag": { "eyebrow": "New in", "title": "The Coco Dress", "text": "₦38,500 · sizes 6–22" }
+  },
+  "marquee": ["For the IT-Girls", "Crafted in Nigeria", "Sizes 6–22", "Worldwide shipping", "#tellasbabes"],
+  "colours": {
+    "eyebrow": "Shop by colour",
+    "titleHtml": "Pick your<br>main-character colour.",
+    "items": [
+      { "key": "pink", "label": "Pink", "sub": "Ivy Maxi", "img": "tel-09-reel.jpg", "pos": "center 30%" },
+      { "key": "blue", "label": "Blue", "sub": "Ivy Maxi", "img": "tel-07-reel.jpg", "pos": "center 30%" },
+      { "key": "plum", "label": "Plum", "sub": "Nola Mini", "img": "tel-16-reel.jpg", "pos": "center 30%" }
+    ]
+  },
+  "shop": {
+    "eyebrow": "Sizes 6–22",
+    "title": "New in",
+    "link": { "label": "Size chart", "href": "#" },
+    "usd": false,
+    "colors": { "butter": "#EFE3C2", "black": "#1B1B1B", "blue": "#2D4FB5", "pink": "#E0447F", "white": "#F4F1EC", "teal": "#1E6B7A", "orange": "#E58A4E", "plum": "#5A1F45", "brown": "#4A2C22", "lilac": "#B79BD8" },
+    "products": [
+      { "name": "Zaria Mini Dress", "sub": "Sizes 6–22", "ngn": 42000, "badge": "Bestseller", "color": "black", "img": { "black": "tel-06-reel.jpg", "butter": "tel-05-reel.jpg" }, "pos": { "black": "center 25%", "butter": "center 25%" } },
+      { "name": "Ivy Maxi Dress", "sub": "Sizes 6–22", "ngn": 38000, "color": "pink", "img": { "pink": "tel-09-reel.jpg", "blue": "tel-07-reel.jpg" }, "pos": { "pink": "center 25%", "blue": "center 25%" } },
+      { "name": "Coco Dress", "ngn": 38500, "badge": "New", "color": "teal", "img": { "teal": "tel-14-reel.jpg", "orange": "tel-15-reel.jpg" }, "pos": { "teal": "center 25%", "orange": "center 25%" } },
+      { "name": "Nola Mini Dress", "ngn": 36000, "color": "plum", "img": { "plum": "tel-16-reel.jpg", "brown": "tel-17-reel.jpg" }, "pos": { "plum": "center 25%", "brown": "center 25%" } },
+      { "name": "Nola Dress", "sub": "Mesh maxi", "ngn": 42000, "color": "blue", "img": { "blue": "tel-08-reel.jpg" }, "pos": { "blue": "center 25%" } },
+      { "name": "Kiara Two-Piece Set", "ngn": 37000, "color": "pink", "img": { "pink": "tel-12-reel.jpg", "blue": "tel-13-reel.jpg" }, "pos": { "pink": "center 25%", "blue": "center 25%" } },
+      { "name": "Daisy Bikini Set", "sub": "4-piece", "ngn": 35000, "color": "pink", "img": { "pink": "tel-10-reel.jpg", "white": "tel-11-reel.jpg" }, "pos": { "pink": "center 25%", "white": "center 25%" } },
+      { "name": "Elora Bikini Set", "sub": "4-piece", "ngn": 40000, "color": "lilac", "img": { "lilac": "tel-18-reel.jpg" }, "pos": { "lilac": "center 25%" } }
+    ],
+    "note": "Product names, prices and colours are from Tellas' own posts."
+  },
+  "details": {
+    "eyebrow": "Delivery",
+    "titleHtml": "From our rail<br>to your door.",
+    "images": [
+      { "src": "tel-01.jpg", "alt": "Tellas Q&A: some outfits have same-day delivery in Lagos; outside Lagos takes 2–5 working days", "fit": "contain" },
+      { "src": "tel-04.jpg", "alt": "Tellas customer in a polka-dot top and black mini skirt" }
+    ],
+    "feats": [
+      { "title": "Same day in Lagos", "text": "On selected styles. Others take 2–3 working days.", "swatch": "#D63C7A" },
+      { "title": "Outside Lagos", "text": "Delivered in 2–5 working days.", "swatch": "#B79BD8" },
+      { "title": "Worldwide shipping", "text": "IT-Girls everywhere, we've got you.", "swatch": "#1E6B7A" },
+      { "title": "Sizes 6–22", "text": "Check the size chart on every product.", "swatch": "#1F1B1D" }
+    ]
+  },
+  "story": {
+    "img": "tel-02.jpg", "alt": "Tellas customer in a leopard print dress",
+    "eyebrow": "Order without the DMs",
+    "titleHtml": "Shop in a few taps,<br>day or night.",
+    "text": "Instagram's new rules mean Tellas no longer takes orders in the DMs. On the live site customers add to bag, pay online and get a confirmation straight away, with WhatsApp kept for questions.",
+    "cta": { "label": "Start shopping →", "href": "#shop" }
+  },
+  "social": {
+    "title": "#tellasbabes",
+    "items": [
+      { "src": "tel-20-reel.jpg", "alt": "Magenta halter maxi", "video": true },
+      { "src": "tel-21-reel.jpg", "alt": "Black halter maxi", "video": true },
+      { "src": "tel-22-reel.jpg", "alt": "Pink print wrap dress", "video": true },
+      { "src": "tel-23-reel.jpg", "alt": "Leopard halter dress", "video": true },
+      { "src": "tel-04.jpg", "alt": "Customer outfit" }
+    ]
+  },
+  "info": [
+    { "title": "No DMs needed", "text": "Order and pay online in minutes." },
+    { "title": "Delivery", "text": "Same day in Lagos on selected styles." },
+    { "title": "Sizes 6–22", "text": "Size chart on every product." },
+    { "title": "Questions?", "text": "WhatsApp 0803 874 4505." }
+  ],
+  "join": {
+    "eyebrow": "Join the IT-Girls",
+    "titleHtml": "New drops,<br>first.",
+    "text": "Be first to shop new arrivals before they sell out."
+  },
+  "footer": {
+    "blurb": "Fashion brand in Lagos. Crafted in Nigeria, for the IT-Girls. Worldwide shipping.",
+    "columns": [
+      { "title": "Shop", "items": ["New in", "Dresses", "Sets", "Swim"] },
+      { "title": "Help", "items": ["Size chart", "Deliveries", "Reviews", "CAC registered"] },
+      { "title": "Follow", "items": [{ "label": "Instagram", "href": "https://www.instagram.com/tellas_official/" }, "@shoptellas.co", "WhatsApp"] }
+    ],
+    "legal": "Tellas · Lagos"
+  }
+}

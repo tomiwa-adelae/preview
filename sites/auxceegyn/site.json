@@ -1,0 +1,92 @@
+{
+  "template": "booking",
+  "title": "Auxceegyn — Luxury Fashion Designer, Port Harcourt",
+  "description": "Luxury bridal, traditional and couture fashion from Port Harcourt, with nationwide and international delivery. Home of the Auxceegyn Fashion Academy.",
+  "instagram": "auxceegyn",
+  "ogImage": "aux-12.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FBF5EE", "--soft": "#F1E1D2", "--pink": "#E7C9A9", "--accent": "#9C2A2A", "--dark": "#2A1414", "--dark-2": "#4A2525",
+      "--muted": "#85706A", "--line": "#EDDFD2", "--on-dark": "#EBDAD0",
+      "--display": "'Playfair Display',Georgia,serif", "--sans": "'Jost',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "AU", "lines": ["Auxceegyn", "Port Harcourt"] },
+  "nav": [
+    { "label": "Brides", "href": "#services" },
+    { "label": "Academy", "href": "#feature" },
+    { "label": "Lookbook", "href": "#work" },
+    { "label": "Book", "href": "#book" }
+  ],
+  "navCta": { "label": "Book a consultation", "href": "#book" },
+  "hero": {
+    "eyebrow": "Luxury fashion brand · Port Harcourt",
+    "headlineHtml": "Couture for the <em>moments</em> that matter.",
+    "text": "Bridal gowns, traditional bride looks and evening couture, made in Port Harcourt and delivered across Nigeria and abroad. Book a consultation for your bespoke piece.",
+    "primary": { "label": "Book a consultation →", "href": "#book" },
+    "secondary": { "label": "Join the Academy", "href": "#feature" },
+    "pills": ["👰🏾 Bridal", "🪭 Traditional brides", "✨ Couture", "🎓 Fashion Academy", "🌍 International delivery"],
+    "main": { "src": "aux-12.jpg", "alt": "Traditional bride in a yellow corset gown with coral beads by Auxceegyn", "pos": "center 25%" },
+    "mini": { "src": "aux-03-reel.jpg", "alt": "Bride in a pink gele and embellished gown", "pos": "center 25%" },
+    "stampHtml": "Brides<br>of<br>AU"
+  },
+  "services": {
+    "eyebrow": "What we make",
+    "title": "Bespoke",
+    "items": [
+      { "title": "White wedding", "img": "aux-16-reel.jpg", "pos": "center 25%", "text": "Beaded, lace and illusion gowns made to your measurements. @_bridesofau", "link": "Book bridal →" },
+      { "title": "Traditional bride", "img": "aux-10.jpg", "pos": "center 25%", "text": "Corsets, beadwork and statement silhouettes for your trad.", "link": "Book trad →" },
+      { "title": "Couture & evening", "img": "aux-01-reel.jpg", "pos": "center 30%", "text": "Sculpted, show-stopping pieces for galas, birthdays and red carpets.", "link": "Book couture →" },
+      { "title": "Ember sale", "img": "aux-05-reel.jpg", "pos": "center 30%", "text": "Selected ready-made dresses at a discount, available to buy online on the live site.", "link": "Shop the sale →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "Auxceegyn Fashion Academy",
+    "title": "Advanced Fashion Training",
+    "sub": "January batch · master your craft, build your future",
+    "text": "Classes for every level: beginners, beginners to intermediate, beginners to advanced, and advanced upgrades. On the live site, students choose a class, register and pay online, with no Google Forms needed.",
+    "image": "aux-00.jpg",
+    "facts": [
+      { "label": "Batch", "value": "January" },
+      { "label": "Levels", "value": "4 tracks" },
+      { "label": "Register by", "value": "2 Jan 2027" }
+    ],
+    "countdownTo": "2027-01-02T23:59:00+01:00",
+    "countdownLabel": "left to register for the January batch",
+    "countdownDone": "Registration for the January batch has closed.",
+    "cta": "Register for the Academy →",
+    "ctaMsg": "On the live site this opens the class registration and Paystack payment. @auxceegynfashionacademy_"
+  },
+  "gallery": {
+    "eyebrow": "Lookbook",
+    "title": "Recent work",
+    "images": ["aux-06.jpg", "aux-02-reel.jpg", "aux-13.jpg", "aux-04.jpg", "aux-07.jpg", "aux-17.jpg", "aux-09-reel.jpg", "aux-15-reel.jpg", "aux-14.jpg", "aux-11-reel.jpg", "aux-18-reel.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Bespoke & bridal",
+    "title": "Book a consultation",
+    "text": "Tell us about your occasion and date. We'll confirm a consultation in Port Harcourt or by video call if you're elsewhere.",
+    "terms": [
+      "Studio in Port Harcourt. Nationwide and international delivery.",
+      "Bridal orders need a fitting schedule, so book early.",
+      "A deposit confirms your order and production slot."
+    ],
+    "termsNote": "Fitting and deposit terms are samples. The live site would use Auxceegyn's own FAQ.",
+    "services": ["White wedding gown", "Traditional bride", "Couture / evening", "Bridal party", "Ember sale dress", "Fashion Academy"],
+    "dateLabel": "Event date",
+    "extra": { "label": "Where are you?", "options": ["Port Harcourt", "Elsewhere in Nigeria", "Outside Nigeria"] },
+    "notesPlaceholder": "Your vision, colours, inspiration links…",
+    "submit": "Request consultation",
+    "who": "the Auxceegyn studio"
+  },
+  "footer": {
+    "blurb": "Luxury fashion brand in Port Harcourt. Nationwide and international delivery.",
+    "columns": [
+      { "title": "Bespoke", "items": ["Bridal", "Traditional", "Couture", "Ember sale"] },
+      { "title": "Academy", "items": ["Beginners", "Intermediate", "Advanced", "Upgrades"] },
+      { "title": "Follow", "items": [{ "label": "@auxceegyn", "href": "https://www.instagram.com/auxceegyn/" }, "@_bridesofau", "@auxceegynfashionacademy_"] }
+    ],
+    "legal": "Auxceegyn · Port Harcourt"
+  }
+}

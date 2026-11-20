@@ -1,0 +1,89 @@
+{
+  "template": "booking",
+  "title": "Amani Spa & Wellness — Ikeja GRA, Lagos",
+  "description": "Spa rituals, massages, floatation and facials in Ikeja GRA. See the full menu and book your treatment online.",
+  "instagram": "amanispalagos",
+  "ogImage": "ama-11-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Manrope:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#F5F4EF", "--soft": "#E2E8DF", "--pink": "#C7D3C2", "--accent": "#5E7D66", "--dark": "#1F2E27", "--dark-2": "#3A4D43",
+      "--muted": "#717B73", "--line": "#E1E5DC", "--on-dark": "#D9E1D9",
+      "--display": "'Cormorant Garamond',Georgia,serif", "--sans": "'Manrope',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "A", "lines": ["Amani", "Spa & Wellness"] },
+  "nav": [
+    { "label": "Rituals", "href": "#services" },
+    { "label": "Festive Bliss", "href": "#feature" },
+    { "label": "The spa", "href": "#work" },
+    { "label": "Book", "href": "#book" }
+  ],
+  "navCta": { "label": "Book a ritual", "href": "#book" },
+  "hero": {
+    "eyebrow": "Spa & wellness · Ikeja GRA, Lagos",
+    "headlineHtml": "Invest in falling in love <em>with you.</em>",
+    "text": "Massages, floatation, facials and full spa rituals in a calm space in Ikeja GRA. See every treatment and price in one place, then book your time. No PDF menus or WhatsApp back-and-forth.",
+    "primary": { "label": "Book a ritual →", "href": "#book" },
+    "secondary": { "label": "See the menu", "href": "#services" },
+    "pills": ["💆🏾‍♀️ Massage", "🌊 Floatation pool", "✨ Facials", "🪨 Hot stones", "💑 Couples"],
+    "main": { "src": "ama-11-reel.jpg", "alt": "Guest relaxing in a robe with tea at Amani Spa", "pos": "center 35%" },
+    "mini": { "src": "ama-18-reel.jpg", "alt": "Hot stones being placed for a massage", "pos": "center" },
+    "stampHtml": "Slow<br>down<br>here"
+  },
+  "services": {
+    "eyebrow": "Signature rituals",
+    "title": "The menu",
+    "items": [
+      { "title": "A Slowed Moment", "img": "ama-06-reel.jpg", "pos": "center 40%", "price": "90 min · ₦88,000", "text": "60-minute aroma wellbeing massage and a 30-minute pressure-point foot massage.", "link": "Book this ritual →" },
+      { "title": "Stress & Burnout Recovery", "img": "ama-16.jpg", "pos": "center 40%", "price": "₦106,800", "text": "30 minutes in the floatation pool, a 60-minute stress-release massage and a 15-minute scalp massage.", "link": "Book this ritual →" },
+      { "title": "Revival Renewal Ritual", "img": "ama-08-reel.jpg", "pos": "center 35%", "price": "120 min · ₦148,000", "text": "Aroma stress-release massage and ESSE express facial, with Amani Immune Boost Oil to take home.", "link": "Book this ritual →" },
+      { "title": "August Hush", "img": "ama-17-reel.jpg", "pos": "center 40%", "price": "120 min · ₦139,000", "text": "Body exfoliation, deep tissue massage and ESSE express facial. Book for two and both get an upgrade.", "link": "Book for two →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "Seasonal ritual",
+    "title": "Festive Bliss",
+    "sub": "renew · restore · rejoice",
+    "text": "30-minute body polish, 60-minute hot stones massage, 15-minute aroma mud back mask and a 45-minute express facial with jade-stone facial massage. On the live site, seasonal offers like this go live with one click and can be booked and paid for straight away.",
+    "image": "ama-21.jpg",
+    "facts": [
+      { "label": "Treatments", "value": "4 in 1" },
+      { "label": "Price", "value": "₦133,000" },
+      { "label": "You save", "value": "₦14,600" }
+    ],
+    "cta": "Book Festive Bliss →",
+    "ctaMsg": "On the live site you pick a date and time and pay with Paystack. Gift it to someone else too."
+  },
+  "gallery": {
+    "eyebrow": "Inside Amani",
+    "title": "The spa",
+    "images": ["ama-00-reel.jpg", "ama-12-reel.jpg", "ama-15-reel.jpg", "ama-19-reel.jpg", "ama-23-reel.jpg", "ama-13-reel.jpg", "ama-22.jpg", "ama-16.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Book your time",
+    "title": "Book a treatment",
+    "text": "Choose your ritual and time and we'll confirm by WhatsApp. Booking for two? Add your guest below.",
+    "terms": [
+      "38/40 Isaac John Street, Ikeja GRA, Lagos.",
+      "Book via WhatsApp: +234 908 720 5565.",
+      "Please arrive 15 minutes early to settle in."
+    ],
+    "termsNote": "The arrival tip is a sample. The live site would use Amani's own spa etiquette and cancellation policy.",
+    "services": ["A Slowed Moment (₦88,000)", "Stress & Burnout Recovery (₦106,800)", "Revival Renewal Ritual (₦148,000)", "August Hush (₦139,000)", "Festive Bliss (₦133,000)", "Something else / ask us"],
+    "dateLabel": "Preferred date",
+    "extra": { "label": "Guests", "options": ["Just me", "Two of us", "Group (3+)"] },
+    "notesPlaceholder": "Pressure preference, allergies, a gift for someone…",
+    "submit": "Request booking",
+    "who": "the Amani team"
+  },
+  "footer": {
+    "blurb": "Indulge in Amani Spa. Invest in falling in love with you. Ikeja GRA, Lagos.",
+    "columns": [
+      { "title": "Spa", "items": ["Rituals", "Massages", "Facials", "Products"] },
+      { "title": "Visit", "items": ["38/40 Isaac John Street", "Ikeja GRA, Lagos", "+234 908 720 5565"] },
+      { "title": "Follow", "items": [{ "label": "@amanispalagos", "href": "https://www.instagram.com/amanispalagos/" }, "Gift vouchers", "Pamper moments"] }
+    ],
+    "legal": "Amani Spa & Wellness · Lagos"
+  }
+}
