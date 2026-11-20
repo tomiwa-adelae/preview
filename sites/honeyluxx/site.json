@@ -1,0 +1,101 @@
+{
+  "template": "portfolio",
+  "title": "Honeyluxx Events — Event Styling & Decor, Lagos",
+  "description": "Event planning, styling and decor in Lagos. Balloon and floral setups, proposals, room setups, gift boxes and hampers.",
+  "instagram": "honeyluxx_events",
+  "ogImage": "hon-09-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Outfit:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FFF6F8", "--sand": "#FBE3EA", "--stone": "#E9BFCC", "--accent": "#D6336C", "--accent-dark": "#AE2154",
+      "--dark": "#2B1520", "--dark-2": "#45222F", "--muted": "#8A6B76", "--line": "#F3DCE3", "--hero-accent": "#FFC8DA",
+      "--display": "'Playfair Display',Georgia,serif", "--sans": "'Outfit',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "Honeyluxx", "sub": "EVENT STYLING · LAGOS" },
+  "nav": [
+    { "label": "Setups", "href": "#work" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Gift boxes", "href": "#services" },
+    { "label": "Book", "href": "#consult" }
+  ],
+  "navCta": { "label": "Book a setup", "href": "#consult" },
+  "hero": {
+    "img": "hon-04-reel.jpg", "alt": "Pink and red table setup with florals by Honeyluxx", "pos": "center 45%",
+    "eyebrow": "Event planning · Styling · Decor",
+    "headline": "Creating thoughtful experiences.",
+    "text": "Bridal showers, birthdays, proposals and intimate setups styled down to the last petal, plus gift boxes and hampers delivered across Lagos.",
+    "primary": { "label": "Book a setup →", "href": "#consult" },
+    "secondary": { "label": "See our setups", "href": "#work" }
+  },
+  "strip": [
+    { "value": "100 Under 40", "label": "Founder honoured for business" },
+    { "value": "Balloons & florals", "label": "Custom setups" },
+    { "value": "Proposals", "label": "Intimate & room setups" },
+    { "value": "Gift boxes", "label": "Hampers for every occasion" }
+  ],
+  "projects": {
+    "eyebrow": "Recent setups",
+    "title": "Moments we've styled",
+    "text": "On the live site each setup has its own page, with the theme, the details and what the client said.",
+    "items": [
+      { "img": "hon-09-reel.jpg", "pos": "center 40%", "kicker": "Bridal shower", "title": "Simi's Pink Bridal Shower" },
+      { "img": "hon-01-reel.jpg", "pos": "center", "kicker": "Wedding reception", "title": "The Garden Green Table" },
+      { "img": "hon-23-reel.jpg", "pos": "center 40%", "kicker": "Outdoor celebration", "title": "Parasols & Pink" }
+    ],
+    "note": "Setup names, apart from Simi's bridal shower, are placeholders for this concept."
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Services",
+    "items": [
+      { "title": "Event styling", "text": "Weddings, showers and birthdays: tablescapes, backdrops and full decor." },
+      { "title": "Balloons & florals", "text": "Statement balloon installations and floral setups for any space." },
+      { "title": "Proposals & room setups", "text": "Intimate, surprise-ready setups for the moment that matters." },
+      { "title": "Gift boxes & hampers", "text": "Curated gift packages, ready to order and deliver on the live site." }
+    ]
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "From idea to 'wow'",
+    "steps": [
+      { "img": "hon-19.jpg", "title": "Tell us the vibe", "text": "Occasion, colours, guest count and budget." },
+      { "img": "hon-22-reel.jpg", "title": "Design", "text": "We plan the setup and send you the concept." },
+      { "img": "hon-10-reel.jpg", "title": "Set up", "text": "Our team builds everything before you arrive." },
+      { "img": "hon-17-reel.jpg", "title": "Celebrate", "text": "You walk in and enjoy every moment." }
+    ]
+  },
+  "gallery": {
+    "title": "Details",
+    "images": ["hon-03-reel.jpg", "hon-00-reel.jpg", "hon-08-reel.jpg", "hon-12-reel.jpg", "hon-20-reel.jpg", "hon-06-reel.jpg"]
+  },
+  "consult": {
+    "eyebrow": "Book Honeyluxx",
+    "title": "Plan your setup",
+    "text": "Tell us about your event or the gift you want to send, and we'll get back to you with ideas and a quote.",
+    "contact": [
+      { "label": "Studio", "value": "Honeyluxx HQ, Yaba, Lagos" },
+      { "label": "Book", "value": "DM or WhatsApp" },
+      { "label": "Instagram", "value": "@honeyluxx_events" }
+    ],
+    "fields": {
+      "typeLabel": "What are you planning?",
+      "types": ["Wedding / bridal shower", "Birthday", "Proposal", "Room / intimate setup", "Gift box / hamper", "Corporate"],
+      "locations": ["Lagos Mainland", "Lagos Island", "Outside Lagos"],
+      "budgets": ["Under ₦300k", "₦300k – ₦1m", "₦1m – ₦3m", "₦3m+"],
+      "dateField": "Event date",
+      "notesLabel": "Tell us more",
+      "notesPlaceholder": "Theme, colours, venue, guest count…"
+    },
+    "submit": "Send request",
+    "who": "the Honeyluxx team"
+  },
+  "footer": {
+    "blurb": "Event planning, styling and decor. Balloon and floral setups, proposals, gift boxes and hampers.",
+    "columns": [
+      { "title": "Services", "items": ["Event styling", "Proposals", "Gift boxes", "Hampers"] },
+      { "title": "Contact", "items": [{ "label": "@honeyluxx_events", "href": "https://www.instagram.com/honeyluxx_events/" }, "Yaba, Lagos", "WhatsApp"] }
+    ],
+    "legal": "Honeyluxx Events · Lagos"
+  }
+}

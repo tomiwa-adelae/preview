@@ -1,0 +1,89 @@
+{
+  "template": "booking",
+  "title": "Dine with Leyi — Private Chef & Canapés, Lagos",
+  "description": "Private chef, canapés and food styling in Lagos by Ayọ̀lèyí. Book a private dining experience or order a spread for your event.",
+  "instagram": "dinewithleyi",
+  "ogImage": "leyi-21.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FFF5F7", "--soft": "#F9DDE5", "--pink": "#EFA7BC", "--accent": "#B0185E", "--dark": "#2B0F1C", "--dark-2": "#4A1D31",
+      "--muted": "#876A74", "--line": "#F3DAE1", "--on-dark": "#F0D6DF",
+      "--display": "'DM Serif Display',Georgia,serif", "--sans": "'Outfit',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "L", "lines": ["Dine with Leyi", "Private chef · Lagos"] },
+  "nav": [
+    { "label": "Experiences", "href": "#services" },
+    { "label": "Classes", "href": "#feature" },
+    { "label": "Spreads", "href": "#work" },
+    { "label": "Book", "href": "#book" }
+  ],
+  "navCta": { "label": "Book Leyi", "href": "#book" },
+  "hero": {
+    "eyebrow": "Private chef · Canapés · Food stylist",
+    "headlineHtml": "Expressing how I feel, <em>sometimes with food.</em>",
+    "text": "Private dinners, canapé spreads and birthday tables styled to be photographed. Trusted by Reekado Banks and Toyin Abraham. Tell me your date and guest count to get started.",
+    "primary": { "label": "Book a private chef →", "href": "#book" },
+    "secondary": { "label": "See the spreads", "href": "#work" },
+    "pills": ["👩🏽‍🍳 Private chef", "🍢 Canapés", "🎂 Birthday spreads", "🏢 Office parties", "📸 Food styling"],
+    "main": { "src": "leyi-21.jpg", "alt": "Canapé spread with roses and warming lamps by Dine with Leyi", "pos": "center 40%" },
+    "mini": { "src": "leyi-19-reel.jpg", "alt": "Chef Leyi plating mini burgers", "pos": "center 40%" },
+    "stampHtml": "Chef<br>Ayọ̀lèyí"
+  },
+  "services": {
+    "eyebrow": "What I do",
+    "title": "Experiences",
+    "items": [
+      { "title": "Private dining", "img": "leyi-12-reel.jpg", "pos": "center", "text": "A private chef in your home for dinners, date nights and special occasions.", "link": "Book a dinner →" },
+      { "title": "Canapé spreads", "img": "leyi-16-reel.jpg", "pos": "center", "text": "Styled grazing tables and canapés that look as good as they taste.", "link": "Book a spread →" },
+      { "title": "Birthday tables", "img": "leyi-07-reel.jpg", "pos": "center", "text": "Neon signs, warming lamps and a full spread for the birthday star.", "link": "Plan a birthday →" },
+      { "title": "Office parties & trays", "img": "leyi-15-reel.jpg", "pos": "center", "text": "Office party menus and food trays with @sizla.ng: rice, pasta, burgers, BBQ and more.", "link": "Get a quote →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "Learn with Leyi",
+    "title": "The cooking & styling class",
+    "sub": "our best-kept tips, finally shared",
+    "text": "A hands-on class on cooking for events, building canapé spreads and styling food for the camera. On the live site students see the dates, register and pay online, and get class details by email.",
+    "image": "leyi-17-reel.jpg",
+    "facts": [
+      { "label": "Format", "value": "Hands-on" },
+      { "label": "Next class", "value": "TBA" },
+      { "label": "Spots", "value": "Limited" }
+    ],
+    "cta": "Join the class waitlist →",
+    "ctaMsg": "On the live site this opens class registration with Paystack payment."
+  },
+  "gallery": {
+    "eyebrow": "Recent spreads",
+    "title": "Spreads & tables",
+    "images": ["leyi-00-reel.jpg", "leyi-05-reel.jpg", "leyi-09-reel.jpg", "leyi-02-reel.jpg", "leyi-13-reel.jpg", "leyi-06-reel.jpg", "leyi-22-reel.jpg", "leyi-08.jpg", "leyi-14-reel.jpg", "leyi-10-reel.jpg", "leyi-23-reel.jpg", "leyi-11-reel.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Bookings",
+    "title": "Book Leyi for your event",
+    "text": "Send your date, guest count and the kind of experience you want, and I'll come back with a menu and quote.",
+    "terms": [
+      "Based in Lagos. Spreads include setup and styling.",
+      "A deposit confirms your date and menu.",
+      "Food trays are available through @sizla.ng."
+    ],
+    "termsNote": "Deposit and setup terms are samples. The live site would use Leyi's own terms.",
+    "services": ["Private dinner", "Canapé spread", "Birthday table", "Office party", "Food trays (Sizla)", "Cooking class"],
+    "dateLabel": "Event date",
+    "extra": { "label": "Guests", "options": ["2–10", "10–30", "30–80", "80+"] },
+    "notesPlaceholder": "Occasion, venue, cuisine, dietary needs…",
+    "submit": "Send request",
+    "who": "Leyi"
+  },
+  "footer": {
+    "blurb": "Ayọ̀lèyí: private chef, canapés and food styling in Lagos. Chefpreneur and food stylist.",
+    "columns": [
+      { "title": "Book", "items": ["Private dining", "Canapés", "Birthday tables", "Office parties"] },
+      { "title": "Also", "items": ["Food trays @sizla.ng", "Cooking classes", "Lagos"] },
+      { "title": "Follow", "items": [{ "label": "@dinewithleyi", "href": "https://www.instagram.com/dinewithleyi/" }, "@sizla.ng", "Reviews"] }
+    ],
+    "legal": "Dine with Leyi · Lagos"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "template": "store",
+  "title": "Shay Kiddies — Premium Kids Wear, Lagos",
+  "description": "Premium UK, US and Bangladesh kids wear at affordable prices. Shop by age, catch the slash sale and order online.",
+  "instagram": "theshaykiddies",
+  "ogImage": "shay-09-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Nunito:wght@300;400;600;700&display=swap",
+    "vars": {
+      "--dark": "#3A1F2B", "--dark-2": "#4E2A3A", "--accent": "#E2365B", "--accent-soft": "#FFC2CF",
+      "--bg": "#FFF6F2", "--sale": "#E2365B",
+      "--display": "'Baloo 2',system-ui,sans-serif", "--sans": "'Nunito',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "Shay Kiddies", "sub": "PREMIUM KIDS WEAR" },
+  "ticker": ["Slash sales: up to ₦7,500 off", "Premium UK, US & Bangladesh kids wear", "Styled over 5,000 kids", "Back2School ready"],
+  "nav": [
+    { "label": "Slash sale", "href": "#shop" },
+    { "label": "Back2School", "href": "#custom" },
+    { "label": "Reviews", "href": "#social" },
+    { "label": "FAQ", "href": "#info" }
+  ],
+  "hero": {
+    "eyebrow": "Kids clothing vendor · Lagos",
+    "headlineHtml": "Premium kids wear, <em>affordable</em> rates.",
+    "text": "UK, US and Bangladesh kids wear, handpicked by a mum who has styled over 5,000 kids. Shop by age, see what's left in each size and pay in one go.",
+    "primary": { "label": "Shop the slash sale →", "href": "#shop" },
+    "secondary": { "label": "Back2School bundles", "href": "#custom" },
+    "stats": [
+      { "value": "37k+", "label": "parents following" },
+      { "value": "5,000+", "label": "kids styled" },
+      { "value": "UK · US", "label": "and Bangladesh stock" }
+    ],
+    "images": [
+      { "src": "shay-09-reel.jpg", "alt": "Navy and yellow colour-block boys' shirts", "pos": "center 40%" },
+      { "src": "shay-05-reel.jpg", "alt": "Girls' rompers in aqua", "pos": "center 40%" }
+    ],
+    "pricePop": { "was": "₦10,500", "now": "₦6,500", "label": "Boys' shirts, slash sale" }
+  },
+  "shop": {
+    "eyebrow": "Slash sales‼️",
+    "title": "Shop by age",
+    "currency": "₦",
+    "filters": [
+      { "key": "a1-2", "label": "1–2 years" },
+      { "key": "a3-4", "label": "3–4 years" },
+      { "key": "a5-6", "label": "5–6 years" },
+      { "key": "girls", "label": "Girls" }
+    ],
+    "products": [
+      { "name": "Girls' Shorts", "meta": "Girls", "img": "shay-03-reel.jpg", "now": 3500, "was": 6500, "tags": ["girls"] },
+      { "name": "Girls' Rompers", "meta": "Ages 3, 4, 5", "img": "shay-05-reel.jpg", "now": 4000, "was": 6500, "tags": ["girls", "a3-4", "a5-6"] },
+      { "name": "Colour-Block Polo Shirt", "meta": "Age 3", "img": "shay-06-reel.jpg", "now": 5500, "was": 10500, "tags": ["a3-4"] },
+      { "name": "Boys' Shirt", "meta": "Ages 2, 3, 4", "img": "shay-07-reel.jpg", "now": 6500, "was": 10500, "tags": ["a1-2", "a3-4"] },
+      { "name": "Boys' Check Shirt", "meta": "Ages 3, 5", "img": "shay-10-reel.jpg", "now": 4500, "was": 10500, "tags": ["a3-4", "a5-6"] },
+      { "name": "Cream Mandarin Shirt", "meta": "Ages 2, 3, 4", "img": "shay-11-reel.jpg", "now": 6500, "was": 10500, "tags": ["a1-2", "a3-4"] },
+      { "name": "Printed Shirt", "meta": "Ages 1, 2", "img": "shay-12-reel.jpg", "now": 3000, "was": 10500, "tags": ["a1-2"] },
+      { "name": "Red Panel Shirt", "meta": "Ages 1–5", "img": "shay-16-reel.jpg", "now": 6500, "was": 10500, "tags": ["a1-2", "a3-4", "a5-6"] },
+      { "name": "Pink & Navy Shirt", "meta": "Ages 2–5", "img": "shay-17-reel.jpg", "now": 6500, "was": 10500, "tags": ["a1-2", "a3-4", "a5-6"] },
+      { "name": "White Dress Shirt", "meta": "Ages 1, 2, 3", "img": "shay-20-reel.jpg", "now": 4500, "was": 10500, "tags": ["a1-2", "a3-4"] },
+      { "name": "Tartan Shirt", "meta": "Age 6", "img": "shay-22-reel.jpg", "now": 4000, "was": 7000, "tags": ["a5-6"] },
+      { "name": "Plaid Shirt", "meta": "Ages 1, 2, 5", "img": "shay-21-reel.jpg", "now": 4500, "was": 10500, "tags": ["a1-2", "a5-6"] }
+    ],
+    "note": "Old and sale prices and ages are from Shay Kiddies' own slash-sale posts. Item names are placeholders for this concept."
+  },
+  "trust": [
+    { "title": "Order without DMs", "text": "Instagram DMs are restricted, so the site takes orders and payments directly." },
+    { "title": "UK & US stock", "text": "Fresh UK shopping hauls, unboxed on our page." },
+    { "title": "Pay securely", "text": "Card, transfer or USSD through Paystack, with no bank details shared in chat." },
+    { "title": "Sizes by age", "text": "Every item shows the ages still in stock." }
+  ],
+  "custom": {
+    "eyebrow": "Back2School",
+    "title": "School-ready in one order.",
+    "text": "Shirts, shorts and shoes bundled by age, so busy parents can tick off the whole list in one checkout.",
+    "images": [
+      { "src": "shay-08-reel.jpg", "alt": "Unboxing a UK shopping haul" },
+      { "src": "shay-23-reel.jpg", "alt": "White shirts for school" }
+    ],
+    "steps": [
+      { "title": "Pick your child's age", "text": "We show what fits, boys or girls." },
+      { "title": "Build the bundle", "text": "Shirts, shorts, PJs and shoes in one go." },
+      { "title": "Delivered to you", "text": "Lagos and Ogun delivery, nationwide on request." }
+    ],
+    "cta": "Build a school bundle →",
+    "ctaMsg": "The Back2School bundle builder opens here ✦"
+  },
+  "social": {
+    "title": "New arrivals",
+    "items": [
+      { "src": "shay-14-reel.jpg", "caption": "Pastel sets" },
+      { "src": "shay-15-reel.jpg", "caption": "Yellow & navy" },
+      { "src": "shay-18-reel.jpg", "caption": "Red for church" },
+      { "src": "shay-04-reel.jpg", "caption": "Girls' prints" },
+      { "src": "shay-13-reel.jpg", "caption": "Kaftan for boys" }
+    ]
+  },
+  "footer": {
+    "blurb": "Premium UK, US and Bangladesh kids wear at affordable rates. Styled over 5,000 kids.",
+    "columns": [
+      { "title": "Shop", "items": ["Boys", "Girls", "PJs", "Shoes & sneakers"] },
+      { "title": "Help", "items": ["FAQ", "Delivery", "Reviews", "About us"] },
+      { "title": "Contact", "items": [{ "label": "Instagram", "href": "https://www.instagram.com/theshaykiddies/" }, "WhatsApp 0813 005 9591", "Owode, Ogun"] }
+    ],
+    "legal": "Shay Kiddies · Lagos"
+  }
+}

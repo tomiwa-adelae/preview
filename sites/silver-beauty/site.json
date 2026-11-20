@@ -1,0 +1,107 @@
+{
+  "template": "store",
+  "title": "Silver Beauty Hair — Lagos & Abuja Hair Vendor",
+  "description": "Raw Philippine, Vietnamese single-donor and SDD wigs. Shop online, or visit our stores in Lekki Phase 1 and Wuse 2.",
+  "instagram": "silverbeauty_hair",
+  "ogImage": "silv-02-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--dark": "#1E1E22", "--dark-2": "#2E2E34", "--accent": "#8F9AA6", "--accent-soft": "#D7DDE3",
+      "--bg": "#F5F5F3", "--sale": "#B4235A",
+      "--display": "'Cormorant Garamond',Georgia,serif", "--sans": "'DM Sans',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "Silver Beauty", "sub": "HAIR · LAGOS & ABUJA" },
+  "ticker": ["Sales is on: massively discounted prices", "Free delivery on all hairs", "Free gift on all orders", "Stores in Lekki Phase 1 & Wuse 2"],
+  "nav": [
+    { "label": "Shop wigs", "href": "#shop" },
+    { "label": "China preorder", "href": "#custom" },
+    { "label": "Stores", "href": "#info" },
+    { "label": "Wholesale", "href": "#custom" }
+  ],
+  "hero": {
+    "eyebrow": "Lagos & Abuja hair vendor",
+    "headlineHtml": "Luxury hair, <em>sorted by origin.</em>",
+    "text": "Raw Philippine, Vietnamese single-donor and SDD units with lengths, grams and lace listed upfront. Filter, pick your unit and pay, or pick it up at our Lekki or Wuse 2 store.",
+    "primary": { "label": "Shop the sale →", "href": "#shop" },
+    "secondary": { "label": "Find a store", "href": "#info" },
+    "stats": [
+      { "value": "60k+", "label": "followers" },
+      { "value": "2 stores", "label": "Lekki & Wuse 2" },
+      { "value": "Free", "label": "Delivery on all hairs" }
+    ],
+    "images": [
+      { "src": "silv-02-reel.jpg", "alt": "Curly copper wig on a model", "pos": "center 25%" },
+      { "src": "silv-10-reel.jpg", "alt": "16-inch raw Filipino body wave wig", "pos": "center 30%" }
+    ],
+    "pricePop": { "was": "30\" · 400g · 7x7", "now": "₦1,900,000", "label": "The wig on Tonto" }
+  },
+  "shop": {
+    "eyebrow": "Sales is on",
+    "title": "Shop wigs",
+    "currency": "₦",
+    "filters": [
+      { "key": "philippine", "label": "Philippine" },
+      { "key": "vietnam", "label": "Single donor" },
+      { "key": "sdd", "label": "SDD" },
+      { "key": "short", "label": "Bobs & short" }
+    ],
+    "products": [
+      { "name": "Raw Philippine Luxury Unit", "meta": "450g · HD 6x6", "img": "silv-06-reel.jpg", "now": 1650000, "tags": ["philippine"] },
+      { "name": "Raw Philippine Wave", "meta": "HD lace", "img": "silv-18-reel.jpg", "now": 1150000, "tags": ["philippine"] },
+      { "name": "Single Donor Wave", "meta": "300g", "img": "silv-20-reel.jpg", "now": 1080000, "tags": ["vietnam"] },
+      { "name": "Raw Filipino Body Wave", "meta": "16\" · 350g · HD lace", "img": "silv-10-reel.jpg", "now": 950000, "tags": ["philippine"] },
+      { "name": "Single Donor Vietnam", "meta": "300g", "img": "silv-19-reel.jpg", "now": 880000, "tags": ["vietnam"] },
+      { "name": "Philippine Luxury 12\"", "meta": "12\" · 300g", "img": "silv-23-reel.jpg", "now": 780000, "tags": ["philippine", "short"] },
+      { "name": "Two-Tone Wave", "meta": "28\" · 300g · 5x5", "img": "silv-07-reel.jpg", "now": 695000, "tags": ["sdd"] },
+      { "name": "Single Donor 16\"", "meta": "16\" · 300g", "img": "silv-11-reel.jpg", "now": 595000, "tags": ["vietnam"] },
+      { "name": "SDD Wavy 22\"", "meta": "22\" · 300g · 5x5", "img": "silv-05-reel.jpg", "now": 550000, "tags": ["sdd"] },
+      { "name": "Wavy 18\"", "meta": "18\" · 300g · 5x5", "img": "silv-15-reel.jpg", "now": 350000, "tags": ["sdd"] },
+      { "name": "SDD Wavy Side-Part", "meta": "300g · 5x5", "img": "silv-04-reel.jpg", "now": 320000, "tags": ["sdd"] },
+      { "name": "Baby Tint Bob", "meta": "12\"", "img": "silv-17-reel.jpg", "now": 265000, "tags": ["short"] }
+    ],
+    "note": "Prices and specs are read from the labels on Silver Beauty's own posts. Product names are placeholders for this concept."
+  },
+  "trust": [
+    { "title": "Two stores", "text": "Lagos: DF06 Dualfol Mall, 22 Fola Osibo, Lekki Phase 1. Abuja: SF21 Berger Paint Plaza, Wuse 2." },
+    { "title": "Free delivery", "text": "On all hairs during the sale, plus a free gift with every order." },
+    { "title": "Every spec listed", "text": "Origin, length, grams and lace type on every unit, so there's no guesswork." },
+    { "title": "Pay securely", "text": "Card, transfer or USSD through Paystack. Pick up in store or get it delivered." }
+  ],
+  "custom": {
+    "eyebrow": "Live in China",
+    "title": "China preorder & wholesale",
+    "text": "Preorder outfits and hair straight from China, with shipping included and delivery to Nigeria in about 2 weeks. Vendors can apply for wholesale prices instead of joining a WhatsApp group.",
+    "images": [
+      { "src": "silv-03.jpg", "alt": "China preorder outfits, ₦49,000" },
+      { "src": "silv-14-reel.jpg", "alt": "Silver Beauty shopping live in China" }
+    ],
+    "steps": [
+      { "title": "Browse the drop", "text": "See this week's China preorder items with prices." },
+      { "title": "Pay to reserve", "text": "Pay online. Shipping to Nigeria is already included." },
+      { "title": "Track it home", "text": "About 2 weeks to arrive, with updates along the way." }
+    ],
+    "cta": "Shop the preorder →",
+    "ctaMsg": "The China preorder catalogue opens here ✦"
+  },
+  "social": {
+    "title": "On our clients",
+    "items": [
+      { "src": "silv-01-reel.jpg", "caption": "On Tonto" },
+      { "src": "silv-13-reel.jpg", "caption": "Single donor · ₦880k" },
+      { "src": "silv-16-reel.jpg", "caption": "Sale · ₦270k" },
+      { "src": "silv-22-reel.jpg", "caption": "24\" · ₦650k" },
+      { "src": "silv-08-reel.jpg", "caption": "Store visit" }
+    ]
+  },
+  "footer": {
+    "blurb": "Lagos & Abuja hair vendor. Stores in Lekki Phase 1 and Wuse 2.",
+    "columns": [
+      { "title": "Shop", "items": ["Philippine", "Vietnamese", "SDD", "China preorder"] },
+      { "title": "Stores", "items": ["DF06 Dualfol Mall, Lekki Ph 1", "SF21 Berger Paint Plaza, Wuse 2", "WhatsApp 0816 807 5956"] },
+      { "title": "Follow", "items": [{ "label": "Instagram", "href": "https://www.instagram.com/silverbeauty_hair/" }, "Wholesale", "Reviews"] }
+    ],
+    "legal": "Silver Beauty Hair · Lagos & Abuja"
+  }
+}
