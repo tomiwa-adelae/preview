@@ -34,8 +34,7 @@
     "images": [
       { "src": "silv-02-reel.jpg", "alt": "Curly copper wig on a model", "pos": "center 25%" },
       { "src": "silv-10-reel.jpg", "alt": "16-inch raw Filipino body wave wig", "pos": "center 30%" }
-    ],
-    "pricePop": { "was": "30\" · 400g · 7x7", "now": "₦1,900,000", "label": "The wig on Tonto" }
+    ]
   },
   "shop": {
     "eyebrow": "Sales is on",
