@@ -25,7 +25,7 @@ header.top{position:absolute;top:0;left:0;right:0;z-index:30;color:#fff}.nav{dis
 .hero{position:relative;min-height:min(92vh,860px);display:flex;align-items:flex-end;color:#fff;overflow:hidden}
 .hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;animation:zoom 14s ease-out forwards}@keyframes zoom{from{transform:scale(1.08)}to{transform:scale(1)}}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,12,10,.5) 0%,rgba(15,12,10,.05) 35%,rgba(15,12,10,.7) 100%)}
-.hero .wrap{position:relative;z-index:1;width:100%;padding-bottom:80px}.hero .eyebrow{color:var(--hero-accent)}
+.hero .wrap{position:relative;z-index:1;width:100%;padding-top:130px;padding-bottom:80px}.hero .eyebrow{color:var(--hero-accent)}
 .hero h1{font-size:clamp(46px,6.6vw,98px);line-height:1;max-width:900px;margin:18px 0 26px}.hero p{max-width:520px;font-size:17px;color:#EFE7DA;margin-bottom:32px}
 .btns{display:flex;gap:12px;flex-wrap:wrap}
 .strip{background:var(--dark);color:var(--sand)}.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
