@@ -1,0 +1,101 @@
+{
+  "template": "portfolio",
+  "title": "M&E Events — Lagos Wedding & Event Planner",
+  "description": "Lagos wedding and event planner for weddings, corporate events and socials. 2027 bookings now open.",
+  "instagram": "m_e.events",
+  "ogImage": "me-03.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FAF7F2", "--sand": "#EFE6D8", "--stone": "#CDBFA6", "--accent": "#B08A4A", "--accent-dark": "#8E6C34",
+      "--dark": "#1A1A1A", "--dark-2": "#2C2A27", "--muted": "#77706A", "--line": "#E8DFD2", "--hero-accent": "#E9CF9B",
+      "--display": "'Cormorant Garamond',Georgia,serif", "--sans": "'Jost',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "M&E Events", "sub": "WEDDINGS · CORPORATE · SOCIALS" },
+  "nav": [
+    { "label": "Weddings", "href": "#work" },
+    { "label": "Services", "href": "#services" },
+    { "label": "How we plan", "href": "#process" },
+    { "label": "Book", "href": "#consult" }
+  ],
+  "navCta": { "label": "2027 bookings open", "href": "#consult" },
+  "hero": {
+    "img": "me-03.jpg", "alt": "Bride and groom embracing beside red roses at a wedding planned by M&E Events", "pos": "center 30%",
+    "eyebrow": "Lagos wedding & event planner",
+    "headline": "Creating unforgettable experiences.",
+    "text": "From the first consultation to the last dance, M&E plans and coordinates every detail of your wedding so you and your family can simply enjoy the day.",
+    "primary": { "label": "Book a consultation →", "href": "#consult" },
+    "secondary": { "label": "See our weddings", "href": "#work" }
+  },
+  "strip": [
+    { "value": "2027", "label": "bookings now open" },
+    { "value": "Weddings", "label": "Trad, white & civil" },
+    { "value": "Corporate", "label": "Launches & company events" },
+    { "value": "Socials", "label": "Birthdays & celebrations" }
+  ],
+  "projects": {
+    "eyebrow": "Recent weddings",
+    "title": "Love stories we've planned",
+    "text": "On the live site each wedding gets its own story page with the full gallery, the vendor team and the couple's review.",
+    "items": [
+      { "img": "me-14.jpg", "pos": "center 40%", "kicker": "Civil wedding", "title": "The Staircase Civil" },
+      { "img": "me-05.jpg", "pos": "center 40%", "kicker": "White wedding", "title": "A Garden Ceremony" },
+      { "img": "me-20.jpg", "pos": "center", "kicker": "Reception", "title": "The Emerald Arch" }
+    ],
+    "note": "Wedding names are placeholders for this concept."
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Services",
+    "items": [
+      { "title": "Full planning", "text": "Budget, vendors, timeline and design handled from the day you say yes." },
+      { "title": "Day coordination", "text": "We run the day so nobody has to call the bride: vendors, timings, guests." },
+      { "title": "Corporate events", "text": "Launches, dinners and company celebrations, delivered on brand." },
+      { "title": "Socials", "text": "Birthdays, anniversaries and parties planned with the same care." }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we plan",
+    "title": "From yes to forever",
+    "steps": [
+      { "img": "me-06.jpg", "title": "Consultation", "text": "We meet, hear your story and agree on the plan and budget." },
+      { "img": "me-22.jpg", "title": "Design", "text": "Concept, colours and the vendor team that brings it to life." },
+      { "img": "me-15.jpg", "title": "Planning", "text": "Timelines, checklists and updates so you always know where things stand." },
+      { "img": "me-16.jpg", "title": "The day", "text": "We coordinate everything so you can be fully present." }
+    ]
+  },
+  "gallery": {
+    "title": "Moments",
+    "images": ["me-04.jpg", "me-07.jpg", "me-11.jpg", "me-13.jpg", "me-21.jpg", "me-23.jpg"]
+  },
+  "consult": {
+    "eyebrow": "2027 bookings now open",
+    "title": "Book a consultation",
+    "text": "Tell us about your wedding or event and we'll get back to you to schedule a consultation.",
+    "contact": [
+      { "label": "Call / WhatsApp", "value": "+234 903 224 3486" },
+      { "label": "Based in", "value": "Lagos, Nigeria" },
+      { "label": "Instagram", "value": "@m_e.events" }
+    ],
+    "fields": {
+      "typeLabel": "Event type",
+      "types": ["Wedding (full planning)", "Wedding (day coordination)", "Traditional wedding", "Corporate event", "Social / birthday"],
+      "locations": ["Lagos", "Elsewhere in Nigeria", "Destination"],
+      "budgets": ["₦10m – ₦25m", "₦25m – ₦50m", "₦50m – ₦100m", "₦100m+"],
+      "dateField": "Event date",
+      "notesLabel": "Tell us about it",
+      "notesPlaceholder": "Guest count, venue, the feel you want…"
+    },
+    "submit": "Request consultation",
+    "who": "the M&E team"
+  },
+  "footer": {
+    "blurb": "Lagos weddings and event planner. Weddings, corporate and socials. Creating unforgettable experiences.",
+    "columns": [
+      { "title": "Plan", "items": ["Weddings", "Corporate", "Socials", "Reviews"] },
+      { "title": "Contact", "items": [{ "label": "@m_e.events", "href": "https://www.instagram.com/m_e.events/" }, "+234 903 224 3486", "Lagos"] }
+    ],
+    "legal": "M&E Events · Lagos"
+  }
+}

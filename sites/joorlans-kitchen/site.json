@@ -1,0 +1,92 @@
+{
+  "template": "booking",
+  "title": "Joorlan's Kitchen — The Lagos Caterer",
+  "description": "Affordable luxury catering in Lagos. Events, bulk orders, office trays and the Joorlan's Christmas menu. Order online with 24–48 hours' notice.",
+  "instagram": "joorlans_kitchen",
+  "ogImage": "joor-03-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Outfit:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FFF7F1", "--soft": "#FBE3D6", "--pink": "#F2B9A0", "--accent": "#C8281E", "--dark": "#3B1410", "--dark-2": "#5E241D",
+      "--muted": "#8A6C64", "--line": "#F1DED4", "--on-dark": "#F0DCD3",
+      "--display": "'Fraunces',Georgia,serif", "--sans": "'Outfit',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "JK", "lines": ["Joorlan's Kitchen", "The Lagos Caterer"] },
+  "nav": [
+    { "label": "Catering", "href": "#services" },
+    { "label": "Christmas menu", "href": "#feature" },
+    { "label": "The food", "href": "#work" },
+    { "label": "Order", "href": "#book" }
+  ],
+  "navCta": { "label": "Order now", "href": "#book" },
+  "hero": {
+    "eyebrow": "The Lagos caterer · 7+ years",
+    "headlineHtml": "Affordable <em>luxury</em> catering in Lagos.",
+    "text": "Event catering, bulk orders, office lunch packs and food trays, trusted by 100+ clients. Choose what you want, pick your date and pay online. We just need 24–48 hours' notice.",
+    "primary": { "label": "Order or get a quote →", "href": "#book" },
+    "secondary": { "label": "See the Christmas menu", "href": "#feature" },
+    "pills": ["🎉 Events", "📦 Bulk orders", "🍱 Office trays", "🍔 After-party menu", "👩🏾‍🍳 Private chef"],
+    "main": { "src": "joor-03-reel.jpg", "alt": "Joorlan's Kitchen bowls of rice, chicken, corn and fries", "pos": "center" },
+    "mini": { "src": "joor-04.jpg", "alt": "Birthday lunch box with jollof, fried rice, fish and cake", "pos": "center" },
+    "stampHtml": "Trusted<br>by 100+<br>clients"
+  },
+  "services": {
+    "eyebrow": "What we cook for",
+    "title": "Catering",
+    "items": [
+      { "title": "Event catering", "img": "joor-01.jpg", "pos": "center", "text": "Weddings, birthdays and parties: buffets, canapé spreads and small chops.", "link": "Quote my event →" },
+      { "title": "Office lunch packs", "img": "joor-02-reel.jpg", "pos": "center", "text": "Premium lunch packs for teams and meetings, delivered on time across Lagos.", "link": "Order for the office →" },
+      { "title": "Soups & stews", "img": "joor-09-reel.jpg", "pos": "center", "price": "1.4L from ₦36,000", "text": "Egusi ₦36,000, beef stew ₦37,000, ofada sauce ₦38,000, in 1.4L bowls.", "link": "Order soups →" },
+      { "title": "After-party menu", "img": "joor-00-reel.jpg", "pos": "center", "text": "Mini burgers, fries and mini eats your guests can enjoy as the celebration continues.", "link": "Add to my event →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "Christmas served in style",
+    "title": "The Christmas Menu",
+    "sub": "four packages for the festive season",
+    "text": "Christmas Delight, Festive Treat, Grand Christmas Feast and the Royal Christmas Banquet, each with jollof, fried rice, proteins and more. On the live site customers choose a package, add extra proteins and pay to lock in their delivery date.",
+    "image": "joor-21.jpg",
+    "facts": [
+      { "label": "Christmas Delight", "value": "₦85,000" },
+      { "label": "Festive Treat", "value": "₦138,000" },
+      { "label": "Grand Feast", "value": "₦370,000", "note": "Royal Banquet ₦595,000" }
+    ],
+    "countdownTo": "2026-12-25T00:00:00+01:00",
+    "countdownLabel": "until Christmas, so book your date",
+    "countdownDone": "Merry Christmas from Joorlan's Kitchen!",
+    "cta": "Order a Christmas package →",
+    "ctaMsg": "On the live site this opens the Christmas menu: choose a package, add proteins and pay with Paystack."
+  },
+  "gallery": {
+    "eyebrow": "From our kitchen",
+    "title": "The food",
+    "images": ["joor-19-reel.jpg", "joor-14-reel.jpg", "joor-13-reel.jpg", "joor-23-reel.jpg", "joor-16-reel.jpg", "joor-20-reel.jpg", "joor-05.jpg", "joor-10-reel.jpg", "joor-11.jpg"]
+  },
+  "booking": {
+    "eyebrow": "24–48 hours' notice",
+    "title": "Order or get a quote",
+    "text": "Tell us what you need and when, and we'll confirm on WhatsApp with your total.",
+    "terms": [
+      "Orders need 24–48 hours' notice. Event dates are confirmed with a deposit.",
+      "WhatsApp 0912 526 0650 for urgent orders.",
+      "Delivery across Lagos, quoted by location."
+    ],
+    "termsNote": "Deposit and delivery terms are samples. The live site would use Joorlan's own terms.",
+    "services": ["Event catering", "Office lunch packs", "Food trays / bulk order", "Soups & stews", "Christmas package", "After-party menu", "Private chef"],
+    "dateLabel": "Delivery / event date",
+    "extra": { "label": "Number of people", "options": ["Under 20", "20–50", "50–150", "150+"] },
+    "notesPlaceholder": "Menu ideas, location, budget…",
+    "submit": "Send request",
+    "who": "Joorlan's Kitchen"
+  },
+  "footer": {
+    "blurb": "Affordable luxury catering in Lagos. Events, bulk orders and office trays. 7+ years, 100+ clients.",
+    "columns": [
+      { "title": "Order", "items": ["Event catering", "Lunch packs", "Food trays", "Christmas menu"] },
+      { "title": "Contact", "items": ["WhatsApp 0912 526 0650", "Lagos", "24–48hrs notice"] },
+      { "title": "Follow", "items": [{ "label": "@joorlans_kitchen", "href": "https://www.instagram.com/joorlans_kitchen/" }, "Reviews", "Culinary school"] }
+    ],
+    "legal": "Joorlan's Kitchen · Lagos"
+  }
+}

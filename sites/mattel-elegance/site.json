@@ -1,0 +1,112 @@
+{
+  "template": "fashion",
+  "title": "Mattel Elegance — Luxury Afrocentric Fashion, Abuja",
+  "description": "Luxury Adire and Afrocentric ready-to-wear from Abuja. Shop online or visit our walk-in store on Casamance Street.",
+  "instagram": "mattelelegance",
+  "ogImage": "mat-05.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap",
+    "vars": {
+      "--bg": "#FBF6F2", "--stone": "#EEE2DA", "--ink": "#2A1A1C", "--muted": "#82706F", "--accent": "#8E1F3A",
+      "--story-bg": "#F3DFE0", "--hero-bg": "#EBD3CC",
+      "--serif": "'Playfair Display',Georgia,serif", "--sans": "'Jost',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "Mattel Elegance", "sub": "luxury afrocentric · abuja" },
+  "announce": "Walk-in store: 11a Casamance Street, Abuja · Sizes UK 6–22 · Wholesale & retail",
+  "nav": [
+    { "label": "Shop", "href": "#shop" },
+    { "label": "Adire", "href": "#colours" },
+    { "label": "Pop-ups", "href": "#details" },
+    { "label": "Size chart", "href": "#details" }
+  ],
+  "hero": {
+    "eyebrow": "Abuja's RTW plug · Luxury Adire",
+    "headlineHtml": "Elevate your style,<br><em>the Afrocentric way.</em>",
+    "text": "Luxury Afrocentric designs for women who like to be noticed. Shop ready-to-wear in UK sizes 6–22, pay online, or visit our walk-in store in Abuja.",
+    "primary": { "label": "Shop ready-to-wear →", "href": "#shop" },
+    "secondary": { "label": "Visit the store", "href": "#details" },
+    "main": { "src": "mat-05.jpg", "alt": "Burgundy tiered gown with lace sleeves by Mattel Elegance", "pos": "center 20%" },
+    "side": { "src": "mat-17-reel.jpg", "alt": "Olive balloon-sleeve gown", "pos": "center 25%" },
+    "tag": { "eyebrow": "Bestseller", "title": "The Wini Dress", "text": "₦80,000 · UK 6–20" }
+  },
+  "marquee": ["Luxury Adire", "Ready-to-wear", "Wholesale & retail", "Styled 1M+ women", "Abuja"],
+  "colours": {
+    "eyebrow": "Shop by colour",
+    "titleHtml": "Bold colour,<br>quiet luxury.",
+    "items": [
+      { "key": "ruby", "label": "Ruby", "sub": "Wini Dress", "img": "mat-04-reel.jpg", "pos": "center 25%" },
+      { "key": "gold", "label": "Gold", "sub": "Ella Pants Set", "img": "mat-02-reel.jpg", "pos": "center 25%" },
+      { "key": "green", "label": "Green", "sub": "Nora Gown", "img": "mat-09-reel.jpg", "pos": "center 25%" }
+    ]
+  },
+  "shop": {
+    "eyebrow": "Ready-to-wear",
+    "title": "Shop the collection",
+    "link": { "label": "Size chart", "href": "#" },
+    "usd": false,
+    "colors": { "ruby": "#9B1B30", "berry": "#B0405F", "red": "#C8202C", "gold": "#C9A044", "silver": "#B9BAB8", "green": "#5E9F2E", "teal": "#1F5C55", "burgundy": "#6E1427", "olive": "#7A8450" },
+    "products": [
+      { "name": "Wini Dress", "sub": "UK 6–20 · ready in 3 working days", "ngn": 80000, "badge": "Bestseller", "color": "berry", "img": { "berry": "mat-20-reel.jpg", "ruby": "mat-04-reel.jpg" }, "pos": { "berry": "center 25%", "ruby": "center 25%" } },
+      { "name": "Noiré Skirt Set", "sub": "Straight ₦120,000 · full set ₦170,000", "ngn": 130000, "badge": "New", "color": "red", "img": { "red": "mat-01-reel.jpg" }, "pos": { "red": "center 25%" } },
+      { "name": "Ella Pants Set", "sub": "UK 10–22", "ngn": 45000, "color": "gold", "img": { "gold": "mat-02-reel.jpg", "silver": "mat-03-reel.jpg" }, "pos": { "gold": "center 25%", "silver": "center 25%" } },
+      { "name": "Nora Gown", "ngn": 40000, "color": "green", "img": { "green": "mat-09-reel.jpg" }, "pos": { "green": "center 25%" } },
+      { "name": "Adire Balloon Jumpsuit", "sub": "UK 10–22", "ngn": 45000, "color": "teal", "img": { "teal": "mat-10-reel.jpg" }, "pos": { "teal": "center 25%" } },
+      { "name": "Tiered Lace Gown", "ngn": 95000, "color": "burgundy", "img": { "burgundy": "mat-05.jpg" }, "pos": { "burgundy": "center 20%" } },
+      { "name": "Balloon-Sleeve Gown", "ngn": 85000, "color": "olive", "img": { "olive": "mat-17-reel.jpg" }, "pos": { "olive": "center 25%" } },
+      { "name": "Draped Kaftan Set", "ngn": 60000, "color": "berry", "img": { "berry": "mat-19-reel.jpg" }, "pos": { "berry": "center 25%" } }
+    ],
+    "note": "Wini, Noiré, Ella and Nora prices are from Mattel Elegance's posts. The last four names and prices, and some photo matches, are placeholders."
+  },
+  "details": {
+    "eyebrow": "Walk-in store & pop-ups",
+    "titleHtml": "Come see us<br>in Abuja.",
+    "images": [
+      { "src": "mat-16-reel.jpg", "alt": "Inside the Mattel Elegance store on Casamance Street" },
+      { "src": "mat-12-reel.jpg", "alt": "Mattel Elegance at the WIBFAIR 2026 pop-up" }
+    ],
+    "feats": [
+      { "title": "Walk-in store", "text": "11a Casamance Street, Abuja. Try on before you buy.", "swatch": "#8E1F3A" },
+      { "title": "UK sizes 6–22", "text": "Most pieces from UK 10–22, with our size chart to guide you.", "swatch": "#C9A044" },
+      { "title": "Pop-up events", "text": "Find us at fairs like WIBFAIR. Pop-up dates are listed on the live site.", "swatch": "#5E9F2E" },
+      { "title": "Wholesale & retail", "text": "Buying for your own store? Apply for wholesale pricing.", "swatch": "#1F5C55" }
+    ]
+  },
+  "story": {
+    "img": "mat-08-reel.jpg", "alt": "A satisfied Mattel Elegance client at a pop-up",
+    "eyebrow": "Wholesale",
+    "titleHtml": "Stock Mattel<br>in your store.",
+    "text": "We supply boutiques across Nigeria. On the live site, retailers apply for a wholesale account, see trade prices and reorder online.",
+    "cta": { "label": "Apply for wholesale →", "href": "#" }
+  },
+  "social": {
+    "title": "Styled by Mattel",
+    "items": [
+      { "src": "mat-23-reel.jpg", "alt": "Two clients in pink Mattel Elegance gowns", "video": true },
+      { "src": "mat-14-reel.jpg", "alt": "White halter set", "video": true },
+      { "src": "mat-18-reel.jpg", "alt": "Purple draped set", "video": true },
+      { "src": "mat-13-reel.jpg", "alt": "Gold kaftan at a pop-up", "video": true },
+      { "src": "mat-21-reel.jpg", "alt": "Berry Wini dress", "video": true }
+    ]
+  },
+  "info": [
+    { "title": "Walk-in store", "text": "11a Casamance Street, Abuja." },
+    { "title": "Size chart", "text": "UK 6–22, with measurements for every piece." },
+    { "title": "Fast production", "text": "Selected styles are ready in 3 working days." },
+    { "title": "Order online", "text": "Pay by card or transfer. No waiting in the DMs." }
+  ],
+  "join": {
+    "eyebrow": "Join the list",
+    "titleHtml": "New drops &<br>pop-up dates.",
+    "text": "Be first to hear about new styles and our next pop-up."
+  },
+  "footer": {
+    "blurb": "Luxury Afrocentric designs from Abuja. Successfully styled over 1M+ women. Wholesale and retail.",
+    "columns": [
+      { "title": "Shop", "items": ["New in", "Adire", "Gowns", "Sets"] },
+      { "title": "Help", "items": ["Size chart", "Wholesale", "Pop-ups", "Delivery"] },
+      { "title": "Visit", "items": [{ "label": "Instagram", "href": "https://www.instagram.com/mattelelegance/" }, "11a Casamance St, Abuja", "WhatsApp"] }
+    ],
+    "legal": "Mattel Elegance · Abuja"
+  }
+}

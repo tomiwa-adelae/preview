@@ -1,0 +1,334 @@
+{
+  "template": "store",
+  "title": "Fitgears by Oyin — Gym Wear & Gym Sneakers, Yaba",
+  "description": "Gym thrift wears, gym sneakers and activewear from Yaba, Lagos. Shop what's available by size, with worldwide delivery.",
+  "instagram": "fitgearsbyoyin26_",
+  "ogImage": "fit-02-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--dark": "#1C1A17",
+      "--dark-2": "#2C2925",
+      "--accent": "#8A5A34",
+      "--accent-soft": "#E6C9A8",
+      "--bg": "#F6F1EA",
+      "--sale": "#C2410C",
+      "--display": "'Archivo Black',system-ui,sans-serif",
+      "--sans": "'Archivo',system-ui,sans-serif"
+    }
+  },
+  "brand": {
+    "name": "Fitgears",
+    "sub": "BY OYIN"
+  },
+  "ticker": [
+    "No. 1 gym wear & gym sneakers store in Lagos",
+    "Gym thrift wears from ₦4,000",
+    "Worldwide delivery",
+    "New drops every week"
+  ],
+  "nav": [
+    {
+      "label": "Available items",
+      "href": "#shop"
+    },
+    {
+      "label": "Sneakers",
+      "href": "#custom"
+    },
+    {
+      "label": "Reviews",
+      "href": "#social"
+    },
+    {
+      "label": "Delivery",
+      "href": "#info"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Gym wear · Gym sneakers · Yaba, Lagos",
+    "headlineHtml": "Look good while getting your <em>dream body.</em>",
+    "text": "Gym thrift wears, activewear and gym sneakers, sorted by size so you can see what's still available and pay in one go. No DMs, no 'is this still available?'.",
+    "primary": {
+      "label": "Shop available items →",
+      "href": "#shop"
+    },
+    "secondary": {
+      "label": "Gym sneakers",
+      "href": "#custom"
+    },
+    "stats": [
+      {
+        "value": "13k+",
+        "label": "posts of stock"
+      },
+      {
+        "value": "From ₦4,000",
+        "label": "Gym thrift wears"
+      },
+      {
+        "value": "Worldwide",
+        "label": "Delivery"
+      }
+    ],
+    "images": [
+      {
+        "src": "fit-02-reel.jpg",
+        "alt": "Fitgears store in Yaba with gym sneakers",
+        "pos": "center 40%"
+      },
+      {
+        "src": "fit-16-reel.jpg",
+        "alt": "Lilac sports bra, size 10/12",
+        "pos": "center 30%"
+      }
+    ]
+  },
+  "shop": {
+    "eyebrow": "Pre-loved · one of each",
+    "title": "Available items",
+    "currency": "₦",
+    "filters": [
+      {
+        "key": "s6-8",
+        "label": "Size 6–8"
+      },
+      {
+        "key": "s10",
+        "label": "Size 10"
+      },
+      {
+        "key": "s12",
+        "label": "Size 12"
+      },
+      {
+        "key": "s14",
+        "label": "Size 14"
+      }
+    ],
+    "products": [
+      {
+        "name": "Lilac Racerback Bra",
+        "meta": "Size 10/12 · pre-owned",
+        "img": "fit-16-reel.jpg",
+        "now": 4500,
+        "tags": [
+          "s10",
+          "s12"
+        ]
+      },
+      {
+        "name": "Grey Zip-Front Sports Bra",
+        "meta": "Size 12 · pre-owned",
+        "img": "fit-04-reel.jpg",
+        "now": 4000,
+        "tags": [
+          "s12"
+        ]
+      },
+      {
+        "name": "Teal Racerback Crop",
+        "meta": "Size 12 · pre-owned",
+        "img": "fit-05-reel.jpg",
+        "now": 5000,
+        "tags": [
+          "s12"
+        ]
+      },
+      {
+        "name": "Green Front-Zip Bra",
+        "meta": "Size 8/10 · pre-owned",
+        "img": "fit-14-reel.jpg",
+        "now": 4500,
+        "tags": [
+          "s6-8",
+          "s10"
+        ]
+      },
+      {
+        "name": "Black Longline Bra",
+        "meta": "Size 10/12 · pre-owned",
+        "img": "fit-15-reel.jpg",
+        "now": 4500,
+        "tags": [
+          "s10",
+          "s12"
+        ]
+      },
+      {
+        "name": "Pink Halter Bra",
+        "meta": "Size 10 · pre-owned",
+        "img": "fit-18-reel.jpg",
+        "now": 4500,
+        "tags": [
+          "s10"
+        ]
+      },
+      {
+        "name": "Puma Grey Sports Bra",
+        "meta": "Size 14 · pre-owned",
+        "img": "fit-20-reel.jpg",
+        "now": 4500,
+        "tags": [
+          "s14"
+        ]
+      },
+      {
+        "name": "Mesh Panel Sports Bra",
+        "meta": "Size 8 · pre-owned",
+        "img": "fit-11-reel.jpg",
+        "now": 4500,
+        "tags": [
+          "s6-8"
+        ]
+      },
+      {
+        "name": "Grey Colour-Block Crop",
+        "meta": "Size 10 · pre-owned",
+        "img": "fit-12-reel.jpg",
+        "now": 4500,
+        "tags": [
+          "s10"
+        ]
+      },
+      {
+        "name": "Slate Scoop Bra",
+        "meta": "Size 8/10 · pre-owned",
+        "img": "fit-06-reel.jpg",
+        "now": 4500,
+        "tags": [
+          "s6-8",
+          "s10"
+        ]
+      },
+      {
+        "name": "Striped Racerback Bra",
+        "meta": "Size 6/8 · pre-owned",
+        "img": "fit-21-reel.jpg",
+        "now": 4000,
+        "tags": [
+          "s6-8"
+        ]
+      },
+      {
+        "name": "Sky Ruched Bra",
+        "meta": "Size 12 · pre-owned",
+        "img": "fit-22-reel.jpg",
+        "now": 4500,
+        "tags": [
+          "s12"
+        ]
+      }
+    ],
+    "note": "Sizes and prices are from Fitgears' own posts. Item names are placeholders for this concept."
+  },
+  "trust": [
+    {
+      "title": "Clear sizes",
+      "text": "Every item shows its size on the mannequin and in the listing."
+    },
+    {
+      "title": "Exchange policy",
+      "text": "Wrong item, colour or size sent? Exchange within 24–48 hours in Lagos, or 48–72 hours outside Lagos."
+    },
+    {
+      "title": "Pay securely",
+      "text": "Card, transfer or USSD with Paystack, and you get an instant receipt."
+    },
+    {
+      "title": "Worldwide delivery",
+      "text": "Dispatched from Yaba to anywhere in the world."
+    }
+  ],
+  "custom": {
+    "eyebrow": "Gym sneakers & restocks",
+    "title": "Never miss your size again.",
+    "text": "Thrift pieces sell fast and there's only one of each. Save your size and get a WhatsApp alert the moment new stock in your size drops, sneakers included.",
+    "images": [
+      {
+        "src": "fit-02-reel.jpg",
+        "alt": "Oyin with a pile of gym sneakers at the Yaba store"
+      },
+      {
+        "src": "fit-13-reel.jpg",
+        "alt": "White sports crop, size 10"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Save your sizes",
+        "text": "Top size and shoe size, saved once."
+      },
+      {
+        "title": "Get drop alerts",
+        "text": "We message you when new pieces in your size arrive."
+      },
+      {
+        "title": "Pay before it's gone",
+        "text": "Check out in seconds and we'll ship it out."
+      }
+    ],
+    "cta": "Get drop alerts →",
+    "ctaMsg": "The size-alert sign-up opens here ✦"
+  },
+  "social": {
+    "title": "New drops",
+    "items": [
+      {
+        "src": "fit-03-reel.jpg",
+        "caption": "Size 8 · ₦4,500"
+      },
+      {
+        "src": "fit-07-reel.jpg",
+        "caption": "Size 8/10 · ₦4,000"
+      },
+      {
+        "src": "fit-17-reel.jpg",
+        "caption": "Size 10/12 · ₦4,000"
+      },
+      {
+        "src": "fit-19-reel.jpg",
+        "caption": "Size 10/12 · ₦4,500"
+      },
+      {
+        "src": "fit-13-reel.jpg",
+        "caption": "Size 10 · ₦4,500"
+      }
+    ]
+  },
+  "footer": {
+    "blurb": "No. 1 gym wear & gym sneakers store in Lagos. 272 Borno Way, off Latunde Street, Old Yaba Road.",
+    "columns": [
+      {
+        "title": "Shop",
+        "items": [
+          "Available items",
+          "New in",
+          "Gym sneakers",
+          "Activewear"
+        ]
+      },
+      {
+        "title": "Help",
+        "items": [
+          "Exchange policy",
+          "Deliveries",
+          "Reviews",
+          "About us"
+        ]
+      },
+      {
+        "title": "Contact",
+        "items": [
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/fitgearsbyoyin26_/"
+          },
+          "WhatsApp 0815 882 3842",
+          "Yaba, Lagos"
+        ]
+      }
+    ],
+    "legal": "Fitgears by Oyin · Lagos"
+  }
+}
