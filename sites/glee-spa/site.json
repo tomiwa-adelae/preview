@@ -1,0 +1,89 @@
+{
+  "template": "booking",
+  "title": "Glee Spa — Traditional Luxury Spa, Lekki",
+  "description": "Traditional massage, facials, head spa and body treatments in Lekki, Lagos. Strictly by appointment. Book online.",
+  "instagram": "glee_spa",
+  "ogImage": "glee-17-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Figtree:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#F8F1EA", "--soft": "#EEDCCB", "--pink": "#E6BFB3", "--accent": "#B4532E", "--dark": "#3A2219", "--dark-2": "#5E3A2B",
+      "--muted": "#8A6F62", "--line": "#EADBCD", "--on-dark": "#EBD9CC",
+      "--display": "'Fraunces',Georgia,serif", "--sans": "'Figtree',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "GS", "lines": ["Glee Spa", "Lekki · Lagos"] },
+  "nav": [
+    { "label": "Treatments", "href": "#services" },
+    { "label": "Traditional massage", "href": "#feature" },
+    { "label": "Inside Glee", "href": "#work" },
+    { "label": "Visit", "href": "#book" }
+  ],
+  "navCta": { "label": "Book a treatment", "href": "#book" },
+  "hero": {
+    "eyebrow": "No. 1 traditional spa in Lekki",
+    "headlineHtml": "Lie down. <em>Breathe out.</em> We'll take it from here.",
+    "text": "Traditional massage, facials, head spa and full-body rituals by trained therapists, in a calm private space off Alpha Beach Road. Strictly by appointment, so book your time below.",
+    "primary": { "label": "Book an appointment →", "href": "#book" },
+    "secondary": { "label": "See treatments", "href": "#services" },
+    "pills": ["💆🏾 Massage", "✨ Facials", "🫧 Head spa", "🛁 Bubble bath", "🌿 Body scrub"],
+    "main": { "src": "glee-17-reel.jpg", "alt": "Glee Spa therapist giving a back treatment under the Glee Spa sign", "pos": "center 35%" },
+    "mini": { "src": "glee-18-reel.jpg", "alt": "Facial treatment at Glee Spa", "pos": "center 40%" },
+    "stampHtml": "Strictly<br>by<br>appointment"
+  },
+  "services": {
+    "eyebrow": "The menu",
+    "title": "Treatments",
+    "items": [
+      { "title": "Massage", "img": "glee-13-reel.jpg", "pos": "center", "text": "Deep tissue, relaxing and traditional massage to melt away the week.", "link": "Book a massage →" },
+      { "title": "Facials", "img": "glee-21-reel.jpg", "pos": "center 40%", "text": "Deep-cleansing and glow facials with steam and extraction.", "link": "Book a facial →" },
+      { "title": "Head spa", "img": "glee-19-reel.jpg", "pos": "center", "text": "Scalp cleanse, massage and steam: the treatment everyone is talking about.", "link": "Book head spa →" },
+      { "title": "Body scrub & waxing", "img": "glee-16-reel.jpg", "pos": "center 40%", "text": "Exfoliating scrubs, waxing and body sculpting for smooth, even skin.", "link": "Book body care →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "The Glee signature",
+    "title": "Traditional massage",
+    "sub": "an experience you'll tell your friends about",
+    "text": "Our signature treatment: a full traditional massage by therapists in Ankara, in our dedicated room. Combine it with a scrub, facial or bubble bath as a combo package.",
+    "image": "glee-03-reel.jpg",
+    "facts": [
+      { "label": "Booking", "value": "By appointment" },
+      { "label": "Where", "value": "Lekki", "note": "Off Alpha Beach Road" },
+      { "label": "Add-ons", "value": "Combo packages" }
+    ],
+    "cta": "Book the traditional massage →",
+    "ctaMsg": "On the live site you pick a time and pay a deposit with Paystack to secure your slot."
+  },
+  "gallery": {
+    "eyebrow": "Inside Glee",
+    "title": "Take a look inside",
+    "images": ["glee-15-reel.jpg", "glee-12-reel.jpg", "glee-20-reel.jpg", "glee-05-reel.jpg", "glee-07-reel.jpg", "glee-14-reel.jpg", "glee-11-reel.jpg", "glee-02-reel.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Strictly by appointment",
+    "title": "Book your appointment",
+    "text": "Choose your treatment and time and we'll confirm on WhatsApp. No more back-and-forth to find a slot.",
+    "terms": [
+      "No 32A Fubara Dublin Green Crescent, off New Road, Alpha Beach Road, Lekki.",
+      "Call or WhatsApp 0704 894 4428.",
+      "A deposit secures your slot. Please arrive 10 minutes early."
+    ],
+    "termsNote": "Deposit and arrival terms are samples. The live site would use Glee Spa's own policy.",
+    "services": ["Massage", "Traditional massage", "Facial", "Head spa", "Body scrubbing", "Waxing", "Body sculpting", "Bubble bath", "Combo package"],
+    "dateLabel": "Preferred date",
+    "extra": { "label": "Number of guests", "options": ["Just me", "2 (couple / friends)", "3–4", "5+ (group)"] },
+    "notesPlaceholder": "Anything we should know: pressure preference, allergies, occasion…",
+    "submit": "Request appointment",
+    "who": "Glee Spa's front desk"
+  },
+  "footer": {
+    "blurb": "Traditional luxury spa off Alpha Beach Road, Lekki. Strictly by appointment.",
+    "columns": [
+      { "title": "Treatments", "items": ["Massage", "Facials", "Head spa", "Combo packages"] },
+      { "title": "Visit", "items": ["32A Fubara Dublin Green Cres.", "Alpha Beach Rd, Lekki", "0704 894 4428"] },
+      { "title": "Follow", "items": [{ "label": "@glee_spa", "href": "https://www.instagram.com/glee_spa/" }, "Gift vouchers", "Careers"] }
+    ],
+    "legal": "Glee Spa · Lekki, Lagos"
+  }
+}

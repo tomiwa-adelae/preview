@@ -1,0 +1,88 @@
+{
+  "template": "booking",
+  "title": "Vinest Makeup — Abuja Bridal Makeup Artist",
+  "description": "Timeless soft glam for brides in Abuja and beyond. Bridal, casual glam and makeup classes. Founder of Vinest Cosmetics.",
+  "instagram": "vinestmakeup",
+  "ogImage": "vin-14-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Manrope:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#F8F3EE", "--soft": "#EFE2D8", "--pink": "#E7C3B5", "--accent": "#B06A55", "--dark": "#2D211C", "--dark-2": "#5A463C",
+      "--muted": "#8C7A70", "--line": "#E8DCD2", "--on-dark": "#E5D8CE",
+      "--display": "'Playfair Display',Georgia,serif", "--sans": "'Manrope',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "V", "lines": ["Vinest", "Makeup"] },
+  "nav": [
+    { "label": "Bridal", "href": "#services" },
+    { "label": "Classes", "href": "#feature" },
+    { "label": "Portfolio", "href": "#work" },
+    { "label": "Book", "href": "#book" }
+  ],
+  "navCta": { "label": "Check my date", "href": "#book" },
+  "hero": {
+    "eyebrow": "Abuja bridal makeup artist · Wuse 2",
+    "headlineHtml": "Timeless soft glam for <em>your forever</em> photos.",
+    "text": "Bridal, trad and nikkah glam that looks like you on your best day, in person and in every photo. Based in Wuse 2, Abuja, and available to travel.",
+    "primary": { "label": "Check my wedding date →", "href": "#book" },
+    "secondary": { "label": "Learn with Vinest", "href": "#feature" },
+    "pills": ["👰🏾 Bridal", "💄 Casual glam", "🎓 Educator", "✨ Founder, Vinest Cosmetics"],
+    "main": { "src": "vin-14-reel.jpg", "alt": "Traditional bride with coral beads in soft glam by Vinest Makeup", "pos": "center 30%" },
+    "mini": { "src": "vin-00-reel.jpg", "alt": "Bride in lilac veil", "pos": "center 25%" },
+    "stampHtml": "Timeless<br>soft<br>glam"
+  },
+  "services": {
+    "eyebrow": "How I can glam you",
+    "title": "Services",
+    "items": [
+      { "title": "Bridal", "img": "vin-01-reel.jpg", "pos": "center", "text": "White wedding, trad and nikkah looks with a trial, built to last through every outfit change.", "link": "Book bridal →" },
+      { "title": "Trad & ceremonies", "img": "vin-15-reel.jpg", "pos": "center 30%", "text": "Coral beads, gele and headpieces: glam that holds its own next to the culture.", "link": "Book trad glam →" },
+      { "title": "Casual glam", "img": "vin-19-reel.jpg", "pos": "center 30%", "text": "Birthdays, shoots, dinners and events, done in soft, polished Vinest style.", "link": "Book casual glam →" },
+      { "title": "Vinest Cosmetics", "img": "vin-08-reel.jpg", "pos": "center 30%", "text": "The products behind the look, available to shop on the live site.", "link": "Ask about products →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "Vinest the educator",
+    "title": "Learn soft glam",
+    "sub": "classes for beginners and working artists",
+    "text": "Learn the techniques behind the Vinest look: skin prep, soft sculpting, lashes and bridal longevity. Class dates and fees go here, with online registration and payment.",
+    "image": "vin-08-reel.jpg",
+    "facts": [
+      { "label": "Format", "value": "Hands-on" },
+      { "label": "Where", "value": "Wuse 2", "note": "Abuja" },
+      { "label": "Next class", "value": "TBA" }
+    ],
+    "cta": "Join the class waitlist →",
+    "ctaMsg": "On the live site students register and pay online with Paystack, and get an automatic confirmation."
+  },
+  "gallery": {
+    "eyebrow": "Recent brides & glam",
+    "title": "Portfolio",
+    "images": ["vin-02-reel.jpg", "vin-06-reel.jpg", "vin-05-reel.jpg", "vin-17.jpg", "vin-10-reel.jpg", "vin-22-reel.jpg", "vin-07-reel.jpg", "vin-11.jpg", "vin-16-reel.jpg", "vin-23-reel.jpg", "vin-12-reel.jpg", "vin-21-reel.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Bookings now open",
+    "title": "Check if your date is free",
+    "text": "Bridal dates book out fast. Send your details and we'll confirm availability and send a quote.",
+    "terms": [
+      "Studio in Wuse 2, Abuja. Bookings: 0902 142 5705.",
+      "A deposit secures your date. Dates aren't held without it.",
+      "Travel outside Abuja is quoted per booking."
+    ],
+    "termsNote": "Deposit and travel terms are samples. The live site would use Vinest's own policy.",
+    "services": ["Bridal (white wedding)", "Traditional wedding", "Nikkah", "Casual glam", "Class / training"],
+    "dateLabel": "Event date",
+    "extra": { "label": "Number of faces", "options": ["Bride only", "Bride + 1–3", "Bride + 4–6", "Bride + 7 or more"] },
+    "notesPlaceholder": "Venue, outfit colours, inspiration links…",
+    "who": "Vinest's bookings line"
+  },
+  "footer": {
+    "blurb": "Timeless soft glam beauty. Abuja bridal makeup artist and educator, founder of Vinest Cosmetics.",
+    "columns": [
+      { "title": "Book", "items": ["Bridal", "Trad & nikkah", "Casual glam", "Classes"] },
+      { "title": "Studio", "items": ["Wuse 2, Abuja", "0902 142 5705"] },
+      { "title": "Follow", "items": [{ "label": "@vinestmakeup", "href": "https://www.instagram.com/vinestmakeup/" }, "@vinestcosmetics", { "label": "YouTube", "href": "https://www.youtube.com/@vinestmakeup" }] }
+    ],
+    "legal": "Vinest Makeup · Abuja"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "template": "portfolio",
+  "title": "360 Eventee — Event Decorator, Lagos",
+  "description": "Social and corporate event decor in Lagos with creativity, swag and beauty. Weddings, milestone birthdays and corporate events.",
+  "instagram": "360eventee",
+  "ogImage": "e360-17-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Outfit:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FAF6F2", "--sand": "#EFE6DC", "--stone": "#C9BBAA", "--accent": "#C8963A", "--accent-dark": "#A5772A",
+      "--dark": "#121731", "--dark-2": "#1E2549", "--muted": "#6F6A78", "--line": "#E6DDD3", "--hero-accent": "#F2C96B",
+      "--display": "'Bodoni Moda',Georgia,serif", "--sans": "'Outfit',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "360 Eventee", "sub": "EVENT DECOR · LAGOS" },
+  "nav": [
+    { "label": "Events", "href": "#work" },
+    { "label": "Services", "href": "#services" },
+    { "label": "How we work", "href": "#process" },
+    { "label": "Enquire", "href": "#consult" }
+  ],
+  "navCta": { "label": "Check your date", "href": "#consult" },
+  "hero": {
+    "img": "e360-17-reel.jpg", "alt": "Midnight-blue banquet with crystal ceiling installation by 360 Eventee", "pos": "center 45%",
+    "eyebrow": "Social · Corporate · Lagos",
+    "headline": "Every event, unforgettable. Every detail, unique.",
+    "text": "360 Eventee designs and builds decor for weddings, milestone birthdays and corporate events across Lagos, with creativity, swag and beauty.",
+    "primary": { "label": "Check your date →", "href": "#consult" },
+    "secondary": { "label": "See our events", "href": "#work" }
+  },
+  "strip": [
+    { "value": "42k+", "label": "following the work" },
+    { "value": "Social & corporate", "label": "Weddings, birthdays, galas" },
+    { "value": "Design + build", "label": "Including in-house props" },
+    { "value": "Surulere", "label": "Lagos-based, Lagos-wide" }
+  ],
+  "projects": {
+    "eyebrow": "Recent events",
+    "title": "Rooms we've transformed",
+    "text": "On the live site each event gets its own page with the full gallery, the colour story and the client's review.",
+    "items": [
+      { "img": "e360-00-reel.jpg", "pos": "center 40%", "kicker": "Milestone birthday", "title": "The Rose Garden" },
+      { "img": "e360-10.jpg", "kicker": "Gala dinner", "title": "Midnight Blue" },
+      { "img": "e360-21-reel.jpg", "pos": "center 35%", "kicker": "Themed party", "title": "The Blues" }
+    ],
+    "note": "Event names are placeholders for this concept."
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Services",
+    "items": [
+      { "title": "Weddings", "text": "White weddings, traditional ceremonies and receptions, from entrance to head table." },
+      { "title": "Milestone birthdays", "text": "30th, 50th, 80th: themed backdrops, florals and statement entrances." },
+      { "title": "Corporate events", "text": "Launches, AGMs, award nights and dinners styled to your brand." },
+      { "title": "Props & craft", "text": "Custom-built backdrops and props from our craft team, @360eventeecraftit." }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "From idea to event day",
+    "steps": [
+      { "img": "e360-05-reel.jpg", "title": "Consultation", "text": "We hear your vision, guest count, venue and budget." },
+      { "img": "e360-02-reel.jpg", "title": "Concept", "text": "Mood board, colour story and a layout of every key moment." },
+      { "img": "e360-18-reel.jpg", "title": "Build & set-up", "text": "Our team and craft unit build on site, overnight if needed." },
+      { "img": "e360-04-reel.jpg", "title": "Event day", "text": "Final styling and a team on hand until the last guest leaves." }
+    ]
+  },
+  "gallery": {
+    "title": "Details we love",
+    "images": ["e360-01-reel.jpg", "e360-03-reel.jpg", "e360-06-reel.jpg", "e360-07-reel.jpg", "e360-19-reel.jpg", "e360-13.jpg"]
+  },
+  "consult": {
+    "eyebrow": "Plan your event",
+    "title": "Check if your date is free",
+    "text": "Tell us about your event and we'll get back to you with availability and next steps.",
+    "contact": [
+      { "label": "Studio", "value": "Mabo Street, Surulere, Lagos" },
+      { "label": "Tel / WhatsApp", "value": "0805 522 0618" },
+      { "label": "Props & craft", "value": "@360eventeecraftit" }
+    ],
+    "fields": {
+      "typeLabel": "Event type",
+      "types": ["Wedding", "Traditional wedding", "Birthday / milestone", "Corporate event", "Other"],
+      "locations": ["Lagos Island", "Lagos Mainland", "Outside Lagos"],
+      "budgets": ["₦3m – ₦10m", "₦10m – ₦30m", "₦30m – ₦60m", "₦60m+"],
+      "dateField": "Event date",
+      "notesLabel": "Your vision",
+      "notesPlaceholder": "Venue, guest count, colours, theme…"
+    },
+    "submit": "Send enquiry",
+    "who": "the 360 Eventee team"
+  },
+  "footer": {
+    "blurb": "Event decorator for social and corporate events in Lagos. Vision: make each event unique.",
+    "columns": [
+      { "title": "Events", "items": ["Weddings", "Birthdays", "Corporate", "Props & craft"] },
+      { "title": "Contact", "items": [{ "label": "@360eventee", "href": "https://www.instagram.com/360eventee/" }, "0805 522 0618", "Surulere, Lagos"] }
+    ],
+    "legal": "360 Eventee · Lagos"
+  }
+}
