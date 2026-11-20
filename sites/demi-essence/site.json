@@ -1,0 +1,112 @@
+{
+  "template": "fashion",
+  "title": "Demi Essence — Made-to-Order Fashion, Lagos",
+  "description": "Slow fashion crafted in Lagos. Made-to-order dresses, bridesmaid gowns and custom pieces. Order online.",
+  "instagram": "demiessence.ng",
+  "ogImage": "demi-07-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:wght@300;400;600&display=swap",
+    "vars": {
+      "--bg": "#FBF4F3", "--stone": "#F0E1DF", "--ink": "#2E1E22", "--muted": "#85706F", "--accent": "#C2577A",
+      "--story-bg": "#F7DDE3", "--hero-bg": "#F4E2D8",
+      "--serif": "'Cormorant Garamond',Georgia,serif", "--sans": "'Nunito Sans',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "Demi Essence", "sub": "crafted in lagos" },
+  "announce": "Made to order · Production takes 10–18 working days · Custom orders take longer",
+  "nav": [
+    { "label": "Shop", "href": "#shop" },
+    { "label": "Bridesmaids", "href": "#details" },
+    { "label": "How it works", "href": "#details" },
+    { "label": "DE Dolls", "href": "#social" }
+  ],
+  "hero": {
+    "eyebrow": "Slow fashion · Made to order",
+    "headlineHtml": "Made for you,<br><em>not</em> for a rack.",
+    "text": "Every Demi Essence piece is cut and sewn to your measurements in Lagos. Choose your style and colour, add your sizes, and pay online. No DMs needed.",
+    "primary": { "label": "Shop the collection →", "href": "#shop" },
+    "secondary": { "label": "Bridesmaid price list", "href": "#details" },
+    "main": { "src": "demi-07-reel.jpg", "alt": "Three bridesmaids in sage, silver and burnt-orange Demi Essence gowns", "pos": "center 30%" },
+    "side": { "src": "demi-11.jpg", "alt": "Pink corset bubble dress by Demi Essence", "pos": "center 30%" },
+    "tag": { "eyebrow": "Bridesmaids", "title": "My girls and I", "text": "14 gowns from ₦140,000" }
+  },
+  "marquee": ["Crafted in Lagos", "Made to order", "Slow fashion", "DE Dolls", "Bridesmaids"],
+  "colours": {
+    "eyebrow": "Shop by colour",
+    "titleHtml": "Pick your shade,<br>we'll make it.",
+    "items": [
+      { "key": "blush", "label": "Blush", "sub": "Soft & sweet", "img": "demi-12-reel.jpg", "pos": "center 30%" },
+      { "key": "butter", "label": "Butter", "sub": "Bright & sunny", "img": "demi-16.jpg", "pos": "center 25%" },
+      { "key": "ivory", "label": "Ivory", "sub": "Clean & classic", "img": "demi-21.jpg", "pos": "center 30%" }
+    ]
+  },
+  "shop": {
+    "eyebrow": "Made to order",
+    "title": "Shop the collection",
+    "link": { "label": "Size chart", "href": "#" },
+    "usd": false,
+    "colors": { "blush": "#F4A7B9", "peach": "#F2B48F", "butter": "#F3DD7A", "mocha": "#5B3A2E", "coral": "#F07F7A", "ivory": "#F3EEE3", "mint": "#9FD3C0" },
+    "products": [
+      { "name": "The Bloom Mini", "sub": "Corset bubble dress", "ngn": 135000, "badge": "Bestseller", "color": "blush", "img": { "blush": "demi-12-reel.jpg", "peach": "demi-13-reel.jpg", "butter": "demi-23.jpg" } },
+      { "name": "The Rosette Gown", "sub": "Draped, with rose detail", "ngn": 210000, "color": "mocha", "img": { "mocha": "demi-02-reel.jpg" } },
+      { "name": "The Corset Ball Dress", "ngn": 180000, "badge": "New", "color": "butter", "img": { "butter": "demi-06-reel.jpg" } },
+      { "name": "The Drop-Waist Gown", "sub": "Floor length", "ngn": 195000, "color": "coral", "img": { "coral": "demi-22.jpg", "blush": "demi-20.jpg" }, "pos": { "coral": "center 25%", "blush": "center 25%" } },
+      { "name": "The Halter Midi", "ngn": 120000, "color": "ivory", "img": { "ivory": "demi-10-reel.jpg" } },
+      { "name": "The Lace-Up Corset", "sub": "With sheer skirt", "ngn": 165000, "color": "mint", "img": { "mint": "demi-04.jpg" } },
+      { "name": "The Column Gown", "sub": "Halter neck", "ngn": 175000, "color": "ivory", "img": { "ivory": "demi-15.jpg" }, "pos": { "ivory": "center 30%" } },
+      { "name": "The Sweetheart Mini", "ngn": 110000, "color": "mocha", "img": { "mocha": "demi-08-reel.jpg" } }
+    ],
+    "note": "Product names and prices here are placeholders for this concept. The bridesmaid prices below are Demi Essence's real price list."
+  },
+  "details": {
+    "eyebrow": "Bridesmaids · My girls and I",
+    "titleHtml": "Dress the whole squad,<br>in one order.",
+    "images": [
+      { "src": "demi-01-reel.jpg", "alt": "Demi Essence 'My girls and I' bridesmaid price list: 14 gowns from ₦140,000 to ₦305,000", "fit": "contain" },
+      { "src": "demi-00-reel.jpg", "alt": "Two bridesmaids in chocolate Demi Essence gowns" }
+    ],
+    "feats": [
+      { "title": "14 styles", "text": "Ayla, Raya, Zara, Luna, Serene and more, from ₦140,000 to ₦305,000.", "swatch": "#C2577A" },
+      { "title": "One link for the group", "text": "Each bridesmaid picks her style and enters her own measurements. You see every order in one place.", "swatch": "#F4A7B9" },
+      { "title": "10–18 working days", "text": "Production time for standard sizes. Custom orders take a little longer.", "swatch": "#5B3A2E" },
+      { "title": "Customise it", "text": "Prices are for full-length standard sizes. Customisation may attract extra charges.", "swatch": "#F3DD7A" }
+    ]
+  },
+  "story": {
+    "img": "demi-03-reel.jpg", "alt": "Blush gown with corset and cape by Demi Essence",
+    "eyebrow": "How ordering works",
+    "titleHtml": "Choose. Measure.<br>We make it yours.",
+    "text": "Pick a style and colour, add your measurements with our size chart, and pay online. We'll update you as your piece is cut, sewn and fitted, then deliver it to your door.",
+    "cta": { "label": "Start your order →", "href": "#shop" }
+  },
+  "social": {
+    "title": "DE Dolls",
+    "items": [
+      { "src": "demi-14.jpg", "alt": "DE Doll in a white mini dress" },
+      { "src": "demi-05-reel.jpg", "alt": "Ivory corset gown", "video": true },
+      { "src": "demi-17.jpg", "alt": "Pink gown on a painted staircase" },
+      { "src": "demi-09-reel.jpg", "alt": "White halter dress", "video": true },
+      { "src": "demi-21.jpg", "alt": "Ivory gown at night" }
+    ]
+  },
+  "info": [
+    { "title": "Made to order", "text": "Production takes 10–18 working days." },
+    { "title": "Size chart", "text": "Measure once and save your sizes for next time." },
+    { "title": "Fittings", "text": "Book a fitting at the studio, Monday to Saturday." },
+    { "title": "Questions?", "text": "Chat with us on WhatsApp." }
+  ],
+  "join": {
+    "eyebrow": "Become a DE Doll",
+    "titleHtml": "New styles,<br>first.",
+    "text": "New drops, restocks and bridesmaid offers, straight to your inbox."
+  },
+  "footer": {
+    "blurb": "Crafted in Lagos. Made to order. Slow fashion brand. Open Monday to Saturday.",
+    "columns": [
+      { "title": "Shop", "items": ["New in", "Bridesmaids", "Custom orders", "Price list"] },
+      { "title": "Help", "items": ["Size chart", "FAQ", "Fittings", "Deliveries"] },
+      { "title": "Follow", "items": [{ "label": "Instagram", "href": "https://www.instagram.com/demiessence.ng/" }, "WhatsApp", "Reviews"] }
+    ],
+    "legal": "Demi Essence · Lagos"
+  }
+}

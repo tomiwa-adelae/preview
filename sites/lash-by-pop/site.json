@@ -1,0 +1,89 @@
+{
+  "template": "booking",
+  "title": "Lash by Pop — Lash Tech, Nails & Pedicure, Lekki",
+  "description": "Lash extensions, nails and pedicures in Lekki Phase 1. Walk-ins welcome, or book your slot online.",
+  "instagram": "lashbypoppop",
+  "ogImage": "lash-14-reel.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=DM+Sans:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#FFF6F8", "--soft": "#FBE1E9", "--pink": "#F4A9C0", "--accent": "#D23C77", "--dark": "#1E1418", "--dark-2": "#3B2A31",
+      "--muted": "#86707A", "--line": "#F2DCE3", "--on-dark": "#EBD7DE",
+      "--display": "'Bricolage Grotesque',system-ui,sans-serif", "--sans": "'DM Sans',system-ui,sans-serif"
+    }
+  },
+  "brand": { "mono": "POP", "lines": ["Lash by Pop", "Lekki Phase 1"] },
+  "nav": [
+    { "label": "Services", "href": "#services" },
+    { "label": "Walk-ins", "href": "#feature" },
+    { "label": "Lash looks", "href": "#work" },
+    { "label": "Book", "href": "#book" }
+  ],
+  "navCta": { "label": "Book a slot", "href": "#book" },
+  "hero": {
+    "eyebrow": "Lagos lash tech · Nails · Pedicure",
+    "headlineHtml": "Wake up with <em>lashes</em> already done.",
+    "text": "Classic, hybrid and volume lash extensions, plus nails and pedicures, at the Pop Lash studio in Lekki Phase 1. Walk in, or book your slot so you never wait.",
+    "primary": { "label": "Book my slot →", "href": "#book" },
+    "secondary": { "label": "See lash looks", "href": "#work" },
+    "pills": ["👁️ Classic", "✨ Hybrid", "🖤 Volume", "💅🏾 Nails", "🦶🏾 Pedicure"],
+    "main": { "src": "lash-14-reel.jpg", "alt": "Client with fresh lash extensions and nails by Lash by Pop", "pos": "center 35%" },
+    "mini": { "src": "lash-02-reel.jpg", "alt": "Close-up of a classic lash set", "pos": "center 30%" },
+    "stampHtml": "Walk-ins<br>welcome"
+  },
+  "services": {
+    "eyebrow": "The menu",
+    "title": "Services",
+    "items": [
+      { "title": "Classic lashes", "img": "lash-20-reel.jpg", "pos": "center 40%", "text": "One extension per lash for a natural, mascara-like finish.", "link": "Book classic →" },
+      { "title": "Hybrid lashes", "img": "lash-21-reel.jpg", "pos": "center 35%", "text": "A mix of classic and volume for soft texture and fullness.", "link": "Book hybrid →" },
+      { "title": "Volume & mega volume", "img": "lash-12-reel.jpg", "pos": "center 35%", "text": "Full, fluffy and dramatic: the look that gets noticed.", "link": "Book volume →" },
+      { "title": "Nails & pedicure", "img": "lash-00-reel.jpg", "pos": "center", "text": "Gel, acrylic and a relaxing pedicure while you're here.", "link": "Book nails →" }
+    ]
+  },
+  "feature": {
+    "eyebrow": "The Pop Lash studio",
+    "title": "Walk-ins welcome",
+    "sub": "or book ahead and skip the wait",
+    "text": "Pop in whenever you're around Lekki Phase 1. On the live site you'll see free slots in real time, book in seconds and get a WhatsApp reminder the day before. Refills are tracked too, so you know exactly when to come back.",
+    "image": "lash-01-reel.jpg",
+    "facts": [
+      { "label": "Opens", "value": "Mon 9:30am" },
+      { "label": "Sunday", "value": "Till 1pm" },
+      { "label": "Where", "value": "Lekki Ph. 1", "note": "23a Emma Abimbola Cole" }
+    ],
+    "cta": "Book a slot →",
+    "ctaMsg": "On the live site this shows today's free slots. Pick one and pay a small deposit to lock it in."
+  },
+  "gallery": {
+    "eyebrow": "Fresh sets",
+    "title": "Lash looks",
+    "images": ["lash-03-reel.jpg", "lash-10-reel.jpg", "lash-07-reel.jpg", "lash-15-reel.jpg", "lash-06-reel.jpg", "lash-13-reel.jpg", "lash-16-reel.jpg", "lash-19-reel.jpg", "lash-22-reel.jpg", "lash-08-reel.jpg", "lash-18-reel.jpg", "lash-11-reel.jpg"]
+  },
+  "booking": {
+    "eyebrow": "Skip the wait",
+    "title": "Book your slot",
+    "text": "Pick your service and time and we'll confirm on WhatsApp.",
+    "terms": [
+      "Studio: 23a Emma Abimbola Cole, Block 74, Lekki Phase 1, Lagos.",
+      "Call or WhatsApp 0816 062 2144. Walk-ins are welcome.",
+      "Come with clean lashes and no mascara for the best retention."
+    ],
+    "termsNote": "Aftercare tip is a sample. The live site would use Lash by Pop's own policy and prices.",
+    "services": ["Classic full set", "Hybrid full set", "Volume full set", "Mega volume", "Lash refill", "Lash removal", "Nails", "Pedicure", "Lashes + nails combo"],
+    "dateLabel": "Preferred date",
+    "extra": { "label": "Is this a refill?", "options": ["New set", "Refill (within 2–3 weeks)", "Not sure"] },
+    "notesPlaceholder": "Look you want, lash length, nail inspo…",
+    "submit": "Request slot",
+    "who": "the Pop Lash studio"
+  },
+  "footer": {
+    "blurb": "Lagos lash tech, nails and pedicure. Walk-ins welcome. Lekki Phase 1.",
+    "columns": [
+      { "title": "Services", "items": ["Lash extensions", "Refills", "Nails", "Pedicure"] },
+      { "title": "Visit", "items": ["23a Emma Abimbola Cole", "Lekki Phase 1, Lagos", "0816 062 2144"] },
+      { "title": "Follow", "items": [{ "label": "@lashbypoppop", "href": "https://www.instagram.com/lashbypoppop/" }, "Aftercare", "Gift cards"] }
+    ],
+    "legal": "Lash by Pop · Lekki, Lagos"
+  }
+}

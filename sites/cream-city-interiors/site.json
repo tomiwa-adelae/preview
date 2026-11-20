@@ -1,0 +1,99 @@
+{
+  "template": "portfolio",
+  "title": "Creamcity Interiors — Interior & Furniture Design, Lagos",
+  "description": "Full-service interior and furniture design in Lagos. Kitchens, wardrobes, beds and full fit-outs for homes, offices and hotels.",
+  "instagram": "creamcityinteriors",
+  "ogImage": "cream-03.jpg",
+  "theme": {
+    "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Urbanist:wght@300;400;500;600&display=swap",
+    "vars": {
+      "--bg": "#F7F2EA", "--sand": "#ECE2D3", "--stone": "#CDBFA9", "--accent": "#A87B4F", "--accent-dark": "#87603A",
+      "--dark": "#2A2420", "--dark-2": "#3D3530", "--muted": "#7B7067", "--line": "#E5DACB", "--hero-accent": "#E8CFA8",
+      "--display": "'Cormorant Garamond',Georgia,serif", "--sans": "'Urbanist',system-ui,sans-serif"
+    }
+  },
+  "brand": { "name": "Creamcity", "sub": "INTERIORS · LAGOS" },
+  "nav": [
+    { "label": "Projects", "href": "#work" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Process", "href": "#process" },
+    { "label": "Contact", "href": "#consult" }
+  ],
+  "navCta": { "label": "Get a quote", "href": "#consult" },
+  "hero": {
+    "img": "cream-03.jpg", "alt": "Modern kitchen with island and glass-front cabinets by Creamcity Interiors", "pos": "center 55%",
+    "eyebrow": "Interior design · Furniture making · Project management",
+    "headline": "Kitchens, wardrobes and whole homes, built to last.",
+    "text": "Creamcity designs and makes the furniture, then manages the whole project, so you deal with one team from first measurement to handover.",
+    "primary": { "label": "Get a quote →", "href": "#consult" },
+    "secondary": { "label": "View projects", "href": "#work" }
+  },
+  "strip": [
+    { "value": "18k+", "label": "following the builds" },
+    { "value": "Made in-house", "label": "Our own furniture workshop" },
+    { "value": "Homes · Offices · Hotels", "label": "Residential and commercial" },
+    { "value": "One team", "label": "Design, build and project management" }
+  ],
+  "projects": {
+    "eyebrow": "Recent work",
+    "title": "Spaces we've handed over",
+    "text": "On the live site each project has its own page: the brief, site updates as it was built, and the finished space.",
+    "items": [
+      { "img": "cream-16-reel.jpg", "pos": "center 40%", "kicker": "Residential", "title": "Upholstered Bedroom Suite" },
+      { "img": "cream-06-reel.jpg", "pos": "center 30%", "kicker": "Walk-in closet", "title": "The Glass-Top Island Closet" },
+      { "img": "cream-22-reel.jpg", "pos": "center 30%", "kicker": "Kitchen", "title": "Creamcity Grande Kitchen" }
+    ],
+    "note": "Project names are placeholders for this concept, apart from the Creamcity Grande kitchen package."
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Services",
+    "items": [
+      { "title": "Kitchens", "text": "Full kitchen design and build, including the Creamcity Grande package with soft-close hardware and stone tops." },
+      { "title": "Wardrobes & closets", "text": "Walk-in closets, wardrobes and islands made to fit your room exactly." },
+      { "title": "Furniture", "text": "Beds, sofas and office furniture made in our own workshop." },
+      { "title": "Full fit-outs", "text": "POP ceilings, interior detailing and project management for homes, offices and hotels." }
+    ]
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "From measurement to move-in",
+    "steps": [
+      { "img": "cream-12-reel.jpg", "title": "Measure", "text": "We visit, measure every wall and hear how you use the space." },
+      { "img": "cream-09-reel.jpg", "title": "Design", "text": "Layouts, finishes and a clear quote before anything is built." },
+      { "img": "cream-13-reel.jpg", "title": "Build", "text": "Furniture is made in our workshop, with site updates as we go." },
+      { "img": "cream-05-reel.jpg", "title": "Handover", "text": "Installation, final detailing and the keys back to you." }
+    ]
+  },
+  "gallery": {
+    "title": "In detail",
+    "images": ["cream-08-reel.jpg", "cream-18-reel.jpg", "cream-21-reel.jpg", "cream-10-reel.jpg", "cream-17-reel.jpg", "cream-20-reel.jpg"]
+  },
+  "consult": {
+    "eyebrow": "Start your project",
+    "title": "Get a quote",
+    "text": "Tell us what you're building and we'll arrange a site visit to measure and quote.",
+    "contact": [
+      { "label": "Based in", "value": "Lagos, Nigeria" },
+      { "label": "Instagram", "value": "@creamcityinteriors" },
+      { "label": "Electronics", "value": "@monietronics" }
+    ],
+    "fields": {
+      "types": ["Kitchen", "Wardrobe / closet", "Bedroom furniture", "Full home fit-out", "Office / commercial", "Hotel"],
+      "locations": ["Lagos Island / Lekki", "Lagos Mainland", "Ogun", "Elsewhere"],
+      "budgets": ["Under ₦5m", "₦5m – ₦15m", "₦15m – ₦40m", "₦40m+"],
+      "notesLabel": "About the project",
+      "notesPlaceholder": "Room sizes, current state, finishes you like…"
+    },
+    "submit": "Request a quote",
+    "who": "the Creamcity team"
+  },
+  "footer": {
+    "blurb": "Full-service interior and furniture design. Residential, commercial and hotels.",
+    "columns": [
+      { "title": "Services", "items": ["Kitchens", "Wardrobes", "Beds & sofas", "Office furniture"] },
+      { "title": "Contact", "items": [{ "label": "@creamcityinteriors", "href": "https://www.instagram.com/creamcityinteriors/" }, "WhatsApp", "Lagos"] }
+    ],
+    "legal": "Creamcity Interiors · Lagos"
+  }
+}
